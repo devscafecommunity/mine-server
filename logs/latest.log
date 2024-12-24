@@ -1,12 +1,861 @@
-[11:11:03] [main/INFO]: Loading Minecraft 1.19.2 with Fabric Loader 0.16.9
-[11:11:03] [main/INFO]: Fabric is preparing JARs on first launch, this may take a few seconds...
-[11:11:03] [main/INFO]: Loading 4 mods:
+[16:14:30] [main/INFO]: Loading Minecraft 1.19.2 with Fabric Loader 0.16.9
+[16:14:30] [ForkJoinPool-1-worker-1/WARN]: Mod io_netty_netty-codec-http uses the version 4.1.77.Final which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'Final'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[16:14:30] [main/INFO]: Loading 80 mods:
+	- ae2 12.8.4
+	   \-- noindium 1.1.0+1.19
+	- ae2wtlib 12.9.8
+	- architectury 6.5.69
+	- bookshelf 16.1.5
+	- botanypots 9.0.44
+	- carryon 2.1.2.23
+	- cloth-config 8.3.134
+	   \-- cloth-basic-math 0.6.1
+	- cobblemon 1.3.1+1.19.2
+	- collective 7.64
+	- computercraft 1.101.2
+	   |-- io_netty_netty-codec-http 4.1.77.Final
+	   \-- org_squiddev_cobalt 0.5.5
+	- dungeons_andtaverns_mr 2.0.2
+	- fabric-api 0.77.0+1.19.2
+	   |-- fabric-api-base 0.4.15+8f4e8eb390
+	   |-- fabric-api-lookup-api-v1 1.6.14+93d8cb8290
+	   |-- fabric-biome-api-v1 9.1.1+16f1e31390
+	   |-- fabric-block-api-v1 1.0.2+e415d50e90
+	   |-- fabric-blockrenderlayer-v1 1.1.25+cafc6e8e90
+	   |-- fabric-client-tags-api-v1 1.0.5+b35fea8390
+	   |-- fabric-command-api-v1 1.2.16+f71b366f90
+	   |-- fabric-command-api-v2 2.2.1+413cbbc790
+	   |-- fabric-commands-v0 0.2.33+df3654b390
+	   |-- fabric-containers-v0 0.1.42+df3654b390
+	   |-- fabric-content-registries-v0 3.5.2+7c6cd14d90
+	   |-- fabric-convention-tags-v1 1.3.0+4bc6e26290
+	   |-- fabric-crash-report-info-v1 0.2.8+aeb40ebe90
+	   |-- fabric-data-generation-api-v1 5.3.9+413cbbc790
+	   |-- fabric-dimensions-v1 2.1.35+0d0f210290
+	   |-- fabric-entity-events-v1 1.5.4+9244241690
+	   |-- fabric-events-interaction-v0 0.4.34+562bff6e90
+	   |-- fabric-events-lifecycle-v0 0.2.36+df3654b390
+	   |-- fabric-game-rule-api-v1 1.0.24+b6b6abb490
+	   |-- fabric-item-api-v1 1.6.6+b7d1888890
+	   |-- fabric-item-groups-v0 0.3.39+9244241690
+	   |-- fabric-key-binding-api-v1 1.0.25+5c4fce2890
+	   |-- fabric-keybindings-v0 0.2.23+df3654b390
+	   |-- fabric-lifecycle-events-v1 2.2.4+1b46dc7890
+	   |-- fabric-loot-api-v2 1.1.13+83a8659290
+	   |-- fabric-loot-tables-v1 1.1.16+9e7660c690
+	   |-- fabric-message-api-v1 5.0.7+93d8cb8290
+	   |-- fabric-mining-level-api-v1 2.1.24+33fbc73890
+	   |-- fabric-models-v0 0.3.21+c6af733c90
+	   |-- fabric-networking-api-v1 1.2.12+def3f86d90
+	   |-- fabric-networking-v0 0.3.29+df3654b390
+	   |-- fabric-object-builder-api-v1 4.2.2+d8ef690890
+	   |-- fabric-particles-v1 1.1.0+ee641e7390
+	   |-- fabric-recipe-api-v1 1.0.2+413cbbc790
+	   |-- fabric-registry-sync-v0 0.9.33+9244241690
+	   |-- fabric-renderer-api-v1 1.2.1+1adbf27790
+	   |-- fabric-renderer-indigo 0.8.0+1adbf27790
+	   |-- fabric-renderer-registries-v1 3.2.25+df3654b390
+	   |-- fabric-rendering-data-attachment-v1 0.3.19+6e0787e690
+	   |-- fabric-rendering-fluids-v1 3.0.11+4d0d570390
+	   |-- fabric-rendering-v0 1.1.28+df3654b390
+	   |-- fabric-rendering-v1 1.13.0+526f2c6790
+	   |-- fabric-resource-conditions-api-v1 2.1.2+aae9039d90
+	   |-- fabric-resource-loader-v0 0.8.4+edbdcddb90
+	   |-- fabric-screen-api-v1 1.0.32+4d0d570390
+	   |-- fabric-screen-handler-api-v1 1.3.8+1cc24b1b90
+	   |-- fabric-sound-api-v1 1.0.2+c4f28df590
+	   |-- fabric-textures-v0 1.0.24+aeb40ebe90
+	   |-- fabric-transfer-api-v1 2.1.6+413cbbc790
+	   \-- fabric-transitive-access-wideners-v1 1.3.3+08b73de490
 	- fabricloader 0.16.9
 	   \-- mixinextras 0.4.1
-	- java 21
+	- java 17
+	- lootr 0.4.29.72
 	- minecraft 1.19.2
-[11:11:03] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/rootuser/minedevscafe/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[11:11:07] [main/INFO]: Building unoptimized datafixer
-[11:11:08] [main/ERROR]: Failed to load properties from file: server.properties
-[11:11:08] [main/WARN]: Failed to load eula.txt
-[11:11:08] [main/INFO]: You need to agree to the EULA in order to run the server. Go to eula.txt for more info.
+	- naturescompass 1.19.2-2.1.0-fabric
+	- openpartiesandclaims 0.23.6
+	- sophisticatedbackpacks 1.19.2-3.20.2.22
+	   |-- forgeconfigapiport 4.2.11
+	   |    |-- com_electronwill_night-config_core 3.6.5
+	   |    \-- com_electronwill_night-config_toml 3.6.5
+	   |-- porting_lib_common 2.1.1305+1.19.2
+	   |-- porting_lib_extensions 2.1.1305+1.19.2
+	   |    |-- porting_lib_accessors 2.1.1305+1.19.2
+	   |    |-- porting_lib_attributes 2.1.1305+1.19.2
+	   |    \-- porting_lib_constants 2.1.1305+1.19.2
+	   |-- porting_lib_fake_players 2.1.1305+1.19.2
+	   |-- porting_lib_loot 2.1.1305+1.19.2
+	   |    \-- porting_lib_lazy_registration 2.1.1305+1.19.2
+	   |-- porting_lib_model_loader 2.1.1305+1.19.2
+	   |    |-- porting_lib_accessors 2.1.1305+1.19.2
+	   |    |-- porting_lib_attributes 2.1.1305+1.19.2
+	   |    \-- porting_lib_constants 2.1.1305+1.19.2
+	   |-- porting_lib_networking 2.1.1305+1.19.2
+	   |-- porting_lib_transfer 2.1.1305+1.19.2
+	   |    |-- porting_lib_accessors 2.1.1305+1.19.2
+	   |    |-- porting_lib_attributes 2.1.1305+1.19.2
+	   |    \-- porting_lib_constants 2.1.1305+1.19.2
+	   \-- team_reborn_energy 2.3.0
+	- sophisticatedcore 1.19.2-0.6.4.30
+	   |-- forgeconfigapiport 4.2.11
+	   |    |-- com_electronwill_night-config_core 3.6.5
+	   |    \-- com_electronwill_night-config_toml 3.6.5
+	   |-- porting_lib_extensions 2.1.1305+1.19.2
+	   |    |-- porting_lib_accessors 2.1.1305+1.19.2
+	   |    |-- porting_lib_attributes 2.1.1305+1.19.2
+	   |    \-- porting_lib_constants 2.1.1305+1.19.2
+	   |-- porting_lib_networking 2.1.1305+1.19.2
+	   |-- porting_lib_transfer 2.1.1305+1.19.2
+	   |    |-- porting_lib_accessors 2.1.1305+1.19.2
+	   |    |-- porting_lib_attributes 2.1.1305+1.19.2
+	   |    \-- porting_lib_constants 2.1.1305+1.19.2
+	   \-- team_reborn_energy 2.3.0
+	- sophisticatedstorage 1.19.2-0.9.7.19
+	   |-- forgeconfigapiport 4.2.11
+	   |    |-- com_electronwill_night-config_core 3.6.5
+	   |    \-- com_electronwill_night-config_toml 3.6.5
+	   |-- noindium 1.1.0+1.19
+	   |-- porting_lib_fake_players 2.1.1305+1.19.2
+	   |-- porting_lib_loot 2.1.1305+1.19.2
+	   |    \-- porting_lib_lazy_registration 2.1.1305+1.19.2
+	   |-- porting_lib_model_loader 2.1.1305+1.19.2
+	   |    |-- porting_lib_accessors 2.1.1305+1.19.2
+	   |    |-- porting_lib_attributes 2.1.1305+1.19.2
+	   |    \-- porting_lib_constants 2.1.1305+1.19.2
+	   |-- porting_lib_networking 2.1.1305+1.19.2
+	   |-- porting_lib_transfer 2.1.1305+1.19.2
+	   |    |-- porting_lib_accessors 2.1.1305+1.19.2
+	   |    |-- porting_lib_attributes 2.1.1305+1.19.2
+	   |    \-- porting_lib_constants 2.1.1305+1.19.2
+	   \-- team_reborn_energy 2.3.0
+	- treeharvester 8.7
+	- xaerominimap 24.7.1
+	- xaeroworldmap 1.39.2
+[16:14:30] [main/WARN]: Found 12 non-fabric mods:
+	- aether-1.19.2-1.5.1-forge.jar
+	- comforts-forge-6.0.7+1.19.2.jar
+	- corpse-forge-1.19.2-1.0.17.jar
+	- hexcasting-forge-1.19.2-0.10.3.jar
+	- MekanismGenerators-1.19.2-10.3.9.13.jar
+	- Mekanism-1.19.2-10.3.9.13.jar
+	- modernfix-forge-5.18.1+mc1.19.2.jar
+	- MysticalAgriculture-1.19.2-6.0.15.jar
+	- MekanismTools-1.19.2-10.3.9.13.jar
+	- veinminer-paper-2.2.2.jar
+	- waystones-forge-1.19.2-11.4.2.jar
+	- TConstruct-1.19.2-3.8.4.50.jar
+[16:14:30] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/F:/github/mine-server/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[16:14:31] [main/INFO]: Compatibility level set to JAVA_11
+[16:14:31] [main/INFO]: Compatibility level set to JAVA_17
+[16:14:33] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[16:14:35] [main/WARN]: Failed to add PDH Counter: \Paging File(_Total)\% Usage, Error code: 0xC0000BB8
+[16:14:35] [main/WARN]: Failed to add counter for PDH counter: \Paging File(_Total)\% Usage
+[16:14:35] [main/WARN]: Disabling further attempts to query Paging File.
+[16:14:36] [main/WARN]: COM exception: Invalid Query: SELECT PERCENTUSAGE FROM Win32_PerfRawData_PerfOS_PagingFile
+[16:14:46] [main/INFO]: Building unoptimized datafixer
+[16:14:50] [main/INFO]: Booting LaxPermissionValidator, permissions will be checked using Minecrafts permission level system, see https://minecraft.fandom.com/wiki/Permission_level
+[16:14:51] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
+[16:14:51] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
+[16:14:51] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
+[16:14:51] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
+[16:14:51] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
+[16:14:51] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
+[16:14:51] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
+[16:14:53] [main/INFO]: Starting the Best Spawner...
+[16:14:54] [main/INFO]: Loaded 5 spawning condition types.
+[16:14:54] [main/INFO]: Loaded 5 spawning context types.
+[16:14:54] [main/INFO]: Loaded 1 spawn detail types.
+[16:14:54] [main/ERROR]: No data fixer registered for cobblemon:pokemon
+[16:14:54] [main/ERROR]: No data fixer registered for cobblemon:empty_pokeball
+[16:14:54] [Cobblemon Showdown/INFO]: Starting showdown service...
+[16:14:59] [Cobblemon Showdown/INFO]: Showdown has been started!
+[16:14:59] [main/INFO]: All registries loaded.
+[16:14:59] [main/INFO]: Note: Cobblemon data registries are only loaded once per server instance as Pokémon species are not safe to reload.
+[16:14:59] [main/INFO]: Registered the cobblemon:species_features registry
+[16:14:59] [main/INFO]: Registered the cobblemon:global_species_features registry
+[16:14:59] [main/INFO]: Registered the cobblemon:species_feature_assignments registry
+[16:14:59] [main/INFO]: Registered the cobblemon:moves registry
+[16:14:59] [main/INFO]: Registered the cobblemon:abilities registry
+[16:14:59] [main/INFO]: Registered the cobblemon:species registry
+[16:14:59] [main/INFO]: Registered the cobblemon:species_additions registry
+[16:14:59] [main/INFO]: Registered the cobblemon:pokeballs registry
+[16:14:59] [main/INFO]: Registered the cobblemon:properties_tab_completion registry
+[16:14:59] [main/INFO]: Registered the cobblemon:spawn_detail_presets registry
+[16:14:59] [main/INFO]: Registered the cobblemon:spawn_pool_world registry
+[16:14:59] [main/INFO]: Loading Collective version 7.64.
+[16:15:05] [main/ERROR]: No data fixer registered for 
+[16:15:08] [main/INFO]: Loading Open Parties and Claims!
+[16:15:08] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[16:15:09] [main/INFO]: Loading Xaero's World Map - Stage 1/2 (Server)
+[16:15:09] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[16:15:13] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
+[16:15:15] [Worker-Main-2/ERROR]: Couldn't parse data file nova_structures:chests/water_supply from nova_structures:loot_tables/chests/water_supply.json
+com.google.gson.JsonParseException: com.google.gson.stream.MalformedJsonException: Unterminated array at line 17 column 10 path $.pools[0].entries[1]
+	at net.minecraft.class_3518.method_15267(class_3518.java:512) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15276(class_3518.java:549) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4309.method_20731(class_4309.java:42) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4309.method_18789(class_4309.java:17) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18791(class_4080.java:11) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+Caused by: com.google.gson.stream.MalformedJsonException: Unterminated array at line 17 column 10 path $.pools[0].entries[1]
+	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1562) ~[gson-2.8.9.jar:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:475) ~[gson-2.8.9.jar:?]
+	at com.google.gson.stream.JsonReader.hasNext(JsonReader.java:413) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$27.read(TypeAdapters.java:675) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$27.read(TypeAdapters.java:684) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$27.read(TypeAdapters.java:676) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$27.read(TypeAdapters.java:684) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$27.read(TypeAdapters.java:655) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$33$1.read(TypeAdapters.java:866) ~[gson-2.8.9.jar:?]
+	at net.minecraft.class_3518.method_15267(class_3518.java:510) ~[server-intermediary.jar:?]
+	... 11 more
+[16:15:15] [main/INFO]: Loaded 16 recipes
+[16:15:16] [main/WARN]: Found validation problem in {nova_structures:chests/mangrove_witchhud}.pools[1].entries[2]->{minecraft:entities/witch}.pools[0].entries[3].functions[1]: Parameters [<parameter minecraft:killer_entity>] are not provided in this context
+[16:15:16] [main/WARN]: Found validation problem in {nova_structures:chests/mangrove_witchhud}.pools[1].entries[2]->{minecraft:entities/witch}.pools[0].entries[2].functions[1]: Parameters [<parameter minecraft:killer_entity>] are not provided in this context
+[16:15:16] [main/WARN]: Found validation problem in {nova_structures:chests/mangrove_witchhud}.pools[1].entries[2]->{minecraft:entities/witch}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:killer_entity>] are not provided in this context
+[16:15:16] [main/WARN]: Found validation problem in {nova_structures:chests/mangrove_witchhud}.pools[1].entries[2]->{minecraft:entities/witch}.pools[0].entries[6].functions[1]: Parameters [<parameter minecraft:killer_entity>] are not provided in this context
+[16:15:16] [main/WARN]: Found validation problem in {nova_structures:chests/mangrove_witchhud}.pools[1].entries[2]->{minecraft:entities/witch}.pools[0].entries[1].functions[1]: Parameters [<parameter minecraft:killer_entity>] are not provided in this context
+[16:15:16] [main/WARN]: Found validation problem in {nova_structures:chests/mangrove_witchhud}.pools[1].entries[2]->{minecraft:entities/witch}.pools[0].entries[5].functions[1]: Parameters [<parameter minecraft:killer_entity>] are not provided in this context
+[16:15:16] [main/WARN]: Found validation problem in {nova_structures:chests/mangrove_witchhud}.pools[1].entries[2]->{minecraft:entities/witch}.pools[0].entries[4].functions[1]: Parameters [<parameter minecraft:killer_entity>] are not provided in this context
+[16:15:16] [main/ERROR]: Parsing error loading custom advancement cobblemon:recipes/held/never_melt_ice_using_stone: Unknown item id 'cobblemon:never_melt_ice_using_stone'
+[16:15:16] [main/INFO]: Loaded 2099 advancements
+[16:15:22] [main/INFO]: Loaded 917 moves
+[16:15:22] [main/INFO]: Loaded 302 abilities
+[16:15:22] [main/INFO]: Finished additions
+[16:15:24] [main/INFO]: Imported 97 held item IDs from showdown
+[16:15:24] [main/INFO]: Loaded 1010 Pokémon species
+[16:15:24] [main/INFO]: Starting dummy Showdown battle to force it to pre-load data.
+[16:15:24] [main/INFO]: Loaded 14 spawn detail presets.
+[16:15:27] [main/INFO]: Applied 256 biome modifications to 64 of 64 new biomes in 20.13 ms
+[16:15:27] [Server thread/WARN]: Config key computer_space_limit missing -> added default value.
+[16:15:27] [Server thread/WARN]: Config key floppy_space_limit missing -> added default value.
+[16:15:27] [Server thread/WARN]: Config key maximum_open_files missing -> added default value.
+[16:15:27] [Server thread/WARN]: Config key disable_lua51_features missing -> added default value.
+[16:15:27] [Server thread/WARN]: Config key default_computer_settings missing -> added default value.
+[16:15:27] [Server thread/WARN]: Config key log_computer_errors missing -> added default value.
+[16:15:27] [Server thread/WARN]: Config key command_require_creative missing -> added default value.
+[16:15:27] [Server thread/WARN]: Config key execution missing -> added default value.
+[16:15:27] [Server thread/WARN]: Config key execution.computer_threads missing -> added default value.
+[16:15:27] [Server thread/WARN]: Config key execution.max_main_global_time missing -> added default value.
+[16:15:27] [Server thread/WARN]: Config key execution.max_main_computer_time missing -> added default value.
+[16:15:27] [Server thread/WARN]: Config key http missing -> added default value.
+[16:15:27] [Server thread/WARN]: Config key http.enabled missing -> added default value.
+[16:15:27] [Server thread/WARN]: Config key http.websocket_enabled missing -> added default value.
+[16:15:27] [Server thread/WARN]: Config key http.rules missing -> added default value.
+[16:15:27] [Server thread/WARN]: Config key http.max_requests missing -> added default value.
+[16:15:27] [Server thread/WARN]: Config key http.max_websockets missing -> added default value.
+[16:15:27] [Server thread/WARN]: Config key peripheral missing -> added default value.
+[16:15:27] [Server thread/WARN]: Config key peripheral.command_block_enabled missing -> added default value.
+[16:15:27] [Server thread/WARN]: Config key peripheral.modem_range missing -> added default value.
+[16:15:27] [Server thread/WARN]: Config key peripheral.modem_high_altitude_range missing -> added default value.
+[16:15:27] [Server thread/WARN]: Config key peripheral.modem_range_during_storm missing -> added default value.
+[16:15:27] [Server thread/WARN]: Config key peripheral.modem_high_altitude_range_during_storm missing -> added default value.
+[16:15:27] [Server thread/WARN]: Config key peripheral.max_notes_per_tick missing -> added default value.
+[16:15:27] [Server thread/WARN]: Config key peripheral.monitor_bandwidth missing -> added default value.
+[16:15:27] [Server thread/WARN]: Config key turtle missing -> added default value.
+[16:15:27] [Server thread/WARN]: Config key turtle.need_fuel missing -> added default value.
+[16:15:27] [Server thread/WARN]: Config key turtle.normal_fuel_limit missing -> added default value.
+[16:15:27] [Server thread/WARN]: Config key turtle.advanced_fuel_limit missing -> added default value.
+[16:15:27] [Server thread/WARN]: Config key turtle.obey_block_protection missing -> added default value.
+[16:15:27] [Server thread/WARN]: Config key turtle.can_push missing -> added default value.
+[16:15:27] [Server thread/WARN]: Config key term_sizes missing -> added default value.
+[16:15:27] [Server thread/WARN]: Config key term_sizes.computer missing -> added default value.
+[16:15:27] [Server thread/WARN]: Config key term_sizes.computer.width missing -> added default value.
+[16:15:27] [Server thread/WARN]: Config key term_sizes.computer.height missing -> added default value.
+[16:15:27] [Server thread/WARN]: Config key term_sizes.pocket_computer missing -> added default value.
+[16:15:27] [Server thread/WARN]: Config key term_sizes.pocket_computer.width missing -> added default value.
+[16:15:27] [Server thread/WARN]: Config key term_sizes.pocket_computer.height missing -> added default value.
+[16:15:27] [Server thread/WARN]: Config key term_sizes.monitor missing -> added default value.
+[16:15:27] [Server thread/WARN]: Config key term_sizes.monitor.width missing -> added default value.
+[16:15:27] [Server thread/WARN]: Config key term_sizes.monitor.height missing -> added default value.
+[16:15:27] [Server thread/WARN]: Configuration file .\world\serverconfig\sophisticatedbackpacks-server.toml is not correct. Correcting
+[16:15:27] [Server thread/WARN]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.disallowedItems was corrected from null to its default, []. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.containerItemsDisallowed was corrected from null to its default, false. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.noInteractionBlocks was corrected from null to its default, []. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.noConnectionBlocks was corrected from null to its default, []. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.leatherBackpack was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.leatherBackpack.inventorySlotCount was corrected from null to its default, 27. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.leatherBackpack.upgradeSlotCount was corrected from null to its default, 1. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.copperBackpack was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.copperBackpack.inventorySlotCount was corrected from null to its default, 45. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.copperBackpack.upgradeSlotCount was corrected from null to its default, 1. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.ironBackpack was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.ironBackpack.inventorySlotCount was corrected from null to its default, 54. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.ironBackpack.upgradeSlotCount was corrected from null to its default, 2. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.goldBackpack was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.goldBackpack.inventorySlotCount was corrected from null to its default, 81. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.goldBackpack.upgradeSlotCount was corrected from null to its default, 3. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.diamondBackpack was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.diamondBackpack.inventorySlotCount was corrected from null to its default, 108. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.diamondBackpack.upgradeSlotCount was corrected from null to its default, 5. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.netheriteBackpack was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.netheriteBackpack.inventorySlotCount was corrected from null to its default, 120. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.netheriteBackpack.upgradeSlotCount was corrected from null to its default, 7. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.compactingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.compactingUpgrade.filterSlots was corrected from null to its default, 9. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.compactingUpgrade.slotsInRow was corrected from null to its default, 3. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.advancedCompactingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.advancedCompactingUpgrade.filterSlots was corrected from null to its default, 16. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.advancedCompactingUpgrade.slotsInRow was corrected from null to its default, 4. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.depositUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.depositUpgrade.filterSlots was corrected from null to its default, 9. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.depositUpgrade.slotsInRow was corrected from null to its default, 3. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.advancedDepositUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.advancedDepositUpgrade.filterSlots was corrected from null to its default, 16. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.advancedDepositUpgrade.slotsInRow was corrected from null to its default, 4. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.feedingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.feedingUpgrade.filterSlots was corrected from null to its default, 9. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.feedingUpgrade.slotsInRow was corrected from null to its default, 3. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.advancedFeedingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.advancedFeedingUpgrade.filterSlots was corrected from null to its default, 16. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.advancedFeedingUpgrade.slotsInRow was corrected from null to its default, 4. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.filterUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.filterUpgrade.filterSlots was corrected from null to its default, 9. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.filterUpgrade.slotsInRow was corrected from null to its default, 3. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.advancedFilterUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.advancedFilterUpgrade.filterSlots was corrected from null to its default, 16. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.advancedFilterUpgrade.slotsInRow was corrected from null to its default, 4. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.magnetUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.magnetUpgrade.filterSlots was corrected from null to its default, 9. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.magnetUpgrade.slotsInRow was corrected from null to its default, 3. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.magnetUpgrade.magnetRange was corrected from null to its default, 3. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.advancedMagnetUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.advancedMagnetUpgrade.filterSlots was corrected from null to its default, 16. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.advancedMagnetUpgrade.slotsInRow was corrected from null to its default, 4. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.advancedMagnetUpgrade.magnetRange was corrected from null to its default, 5. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.pickupUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.pickupUpgrade.filterSlots was corrected from null to its default, 9. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.pickupUpgrade.slotsInRow was corrected from null to its default, 3. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.advancedPickupUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.advancedPickupUpgrade.filterSlots was corrected from null to its default, 16. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.advancedPickupUpgrade.slotsInRow was corrected from null to its default, 4. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.refillUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.refillUpgrade.filterSlots was corrected from null to its default, 6. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.refillUpgrade.slotsInRow was corrected from null to its default, 3. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.advancedRefillUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.advancedRefillUpgrade.filterSlots was corrected from null to its default, 12. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.advancedRefillUpgrade.slotsInRow was corrected from null to its default, 4. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.restockUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.restockUpgrade.filterSlots was corrected from null to its default, 9. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.restockUpgrade.slotsInRow was corrected from null to its default, 3. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.advancedRestockUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.advancedRestockUpgrade.filterSlots was corrected from null to its default, 16. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.advancedRestockUpgrade.slotsInRow was corrected from null to its default, 4. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.voidUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.voidUpgrade.filterSlots was corrected from null to its default, 9. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.voidUpgrade.slotsInRow was corrected from null to its default, 3. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.voidUpgrade.voidAnythingEnabled was corrected from null to its default, true. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.advancedVoidUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.advancedVoidUpgrade.filterSlots was corrected from null to its default, 16. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.advancedVoidUpgrade.slotsInRow was corrected from null to its default, 4. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.advancedVoidUpgrade.voidAnythingEnabled was corrected from null to its default, true. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.stackUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.stackUpgrade.nonStackableItems was corrected from null to its default, [minecraft:bundle, minecraft:shulker_box, minecraft:white_shulker_box, minecraft:orange_shulker_box, minecraft:magenta_shulker_box, minecraft:light_blue_shulker_box, minecraft:yellow_shulker_box, minecraft:lime_shulker_box, minecraft:pink_shulker_box, minecraft:gray_shulker_box, minecraft:light_gray_shulker_box, minecraft:cyan_shulker_box, minecraft:purple_shulker_box, minecraft:blue_shulker_box, minecraft:brown_shulker_box, minecraft:green_shulker_box, minecraft:red_shulker_box, minecraft:black_shulker_box]. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.smeltingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.smeltingUpgrade.smeltingSpeedMultiplier was corrected from null to its default, 1.0. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.smeltingUpgrade.fuelEfficiencyMultiplier was corrected from null to its default, 1.0. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.smokingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.smokingUpgrade.smeltingSpeedMultiplier was corrected from null to its default, 1.0. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.smokingUpgrade.fuelEfficiencyMultiplier was corrected from null to its default, 1.0. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.blastingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.blastingUpgrade.smeltingSpeedMultiplier was corrected from null to its default, 1.0. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.blastingUpgrade.fuelEfficiencyMultiplier was corrected from null to its default, 1.0. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.autoSmeltingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.autoSmeltingUpgrade.smeltingSpeedMultiplier was corrected from null to its default, 1.0. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.autoSmeltingUpgrade.fuelEfficiencyMultiplier was corrected from null to its default, 1.0. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.autoSmeltingUpgrade.inputFilterSlots was corrected from null to its default, 8. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.autoSmeltingUpgrade.inputFilterSlotsInRow was corrected from null to its default, 4. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.autoSmeltingUpgrade.fuelFilterSlots was corrected from null to its default, 4. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.autoSmeltingUpgrade.fuelFilterSlotsInRow was corrected from null to its default, 4. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.autoSmokingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.autoSmokingUpgrade.smeltingSpeedMultiplier was corrected from null to its default, 1.0. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.autoSmokingUpgrade.fuelEfficiencyMultiplier was corrected from null to its default, 1.0. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.autoSmokingUpgrade.inputFilterSlots was corrected from null to its default, 8. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.autoSmokingUpgrade.inputFilterSlotsInRow was corrected from null to its default, 4. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.autoSmokingUpgrade.fuelFilterSlots was corrected from null to its default, 4. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.autoSmokingUpgrade.fuelFilterSlotsInRow was corrected from null to its default, 4. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.autoBlastingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.autoBlastingUpgrade.smeltingSpeedMultiplier was corrected from null to its default, 1.0. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.autoBlastingUpgrade.fuelEfficiencyMultiplier was corrected from null to its default, 1.0. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.autoBlastingUpgrade.inputFilterSlots was corrected from null to its default, 8. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.autoBlastingUpgrade.inputFilterSlotsInRow was corrected from null to its default, 4. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.autoBlastingUpgrade.fuelFilterSlots was corrected from null to its default, 4. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.autoBlastingUpgrade.fuelFilterSlotsInRow was corrected from null to its default, 4. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.inceptionUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.inceptionUpgrade.upgradesUseInventoriesOfBackpacksInBackpack was corrected from null to its default, true. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.inceptionUpgrade.upgradesInContainedBackpacksAreFunctional was corrected from null to its default, true. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.toolSwapperUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.toolSwapperUpgrade.filterSlots was corrected from null to its default, 8. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.toolSwapperUpgrade.slotsInRow was corrected from null to its default, 4. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.tankUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.tankUpgrade.capacityPerSlotRow was corrected from null to its default, 4000. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.tankUpgrade.stackMultiplierRatio was corrected from null to its default, 1.0. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.tankUpgrade.autoFillDrainContainerCooldown was corrected from null to its default, 20. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.tankUpgrade.maxInputOutput was corrected from null to its default, 20. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.tankUpgrade.energyPerSlotRow was corrected from null to its default, 10000. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.pumpUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.pumpUpgrade.filterSlots was corrected from null to its default, 4. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.pumpUpgrade.maxInputOutput was corrected from null to its default, 20. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.pumpUpgrade.stackMultiplierRatio was corrected from null to its default, 1.0. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.xpPumpUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.xpPumpUpgrade.mendingOn was corrected from null to its default, true. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.xpPumpUpgrade.maxXpPointsPerMending was corrected from null to its default, 5. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.entityBackpackAdditions was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.entityBackpackAdditions.chance was corrected from null to its default, 0.01. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.entityBackpackAdditions.addLoot was corrected from null to its default, true. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.entityBackpackAdditions.buffWithPotionEffects was corrected from null to its default, true. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.entityBackpackAdditions.buffHealth was corrected from null to its default, true. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.entityBackpackAdditions.equipWithArmor was corrected from null to its default, true. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.entityBackpackAdditions.entityLootTableList was corrected from null to its default, [minecraft:creeper|minecraft:chests/desert_pyramid, minecraft:drowned|minecraft:chests/shipwreck_treasure, minecraft:enderman|minecraft:chests/end_city_treasure, minecraft:evoker|minecraft:chests/woodland_mansion, minecraft:husk|minecraft:chests/desert_pyramid, minecraft:piglin|minecraft:chests/bastion_bridge, minecraft:piglin_brute|minecraft:chests/bastion_treasure, minecraft:pillager|minecraft:chests/pillager_outpost, minecraft:skeleton|minecraft:chests/simple_dungeon, minecraft:stray|minecraft:chests/igloo_chest, minecraft:vex|minecraft:chests/woodland_mansion, minecraft:vindicator|minecraft:chests/woodland_mansion, minecraft:witch|minecraft:chests/buried_treasure, minecraft:wither_skeleton|minecraft:chests/nether_bridge, minecraft:zombie|minecraft:chests/simple_dungeon, minecraft:zombie_villager|minecraft:chests/village/village_armorer, minecraft:zombified_piglin|minecraft:chests/bastion_other]. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.entityBackpackAdditions.discBlockList was corrected from null to its default, [botania:record_gaia_1, botania:record_gaia_2]. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.entityBackpackAdditions.playJukebox was corrected from null to its default, true. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.entityBackpackAdditions.dropToFakePlayers was corrected from null to its default, false. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.entityBackpackAdditions.backpackDropChance was corrected from null to its default, 0.5. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.entityBackpackAdditions.lootingChanceIncreasePerLevel was corrected from null to its default, 0.15. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.nerfs was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.nerfs.tooManyBackpacksSlowness was corrected from null to its default, false. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.nerfs.maxNumberOfBackpacks was corrected from null to its default, 3. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.nerfs.slownessLevelsPerAdditionalBackpack was corrected from null to its default, 1.0. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.nerfs.onlyWornBackpackTriggersUpgrades was corrected from null to its default, false. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.maxUpgradesPerStorage was corrected from null to its default, [jukebox_upgrade|1, furnace_upgrades|1, stack_upgrades|3]. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.itemFluidHandlerEnabled was corrected from null to its default, true. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.allowOpeningOtherPlayerBackpacks was corrected from null to its default, true. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.itemDisplayDisabled was corrected from null to its default, false. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.tickDedupeLogicDisabled was corrected from null to its default, false. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.canBePlacedInContainerItems was corrected from null to its default, false. 
+[16:15:27] [Server thread/WARN]: Configuration file .\world\serverconfig\sophisticatedcore-server.toml is not correct. Correcting
+[16:15:27] [Server thread/WARN]: Incorrect key common was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key common.enabledItems was corrected from null to its default, []. 
+[16:15:27] [Server thread/WARN]: Configuration file .\world\serverconfig\sophisticatedstorage-server.toml is not correct. Correcting
+[16:15:27] [Server thread/WARN]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.WoodBarrel was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.WoodBarrel.inventorySlotCount was corrected from null to its default, 27. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.WoodBarrel.upgradeSlotCount was corrected from null to its default, 1. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.CopperBarrel was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.CopperBarrel.inventorySlotCount was corrected from null to its default, 45. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.CopperBarrel.upgradeSlotCount was corrected from null to its default, 1. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.IronBarrel was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.IronBarrel.inventorySlotCount was corrected from null to its default, 54. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.IronBarrel.upgradeSlotCount was corrected from null to its default, 2. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.GoldBarrel was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.GoldBarrel.inventorySlotCount was corrected from null to its default, 81. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.GoldBarrel.upgradeSlotCount was corrected from null to its default, 3. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.DiamondBarrel was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.DiamondBarrel.inventorySlotCount was corrected from null to its default, 108. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.DiamondBarrel.upgradeSlotCount was corrected from null to its default, 4. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.NetheriteBarrel was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.NetheriteBarrel.inventorySlotCount was corrected from null to its default, 132. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.NetheriteBarrel.upgradeSlotCount was corrected from null to its default, 5. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.LimitedBarrelI was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.LimitedBarrelI.baseSlotLimitMultiplier was corrected from null to its default, 32. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.LimitedBarrelI.upgradeSlotCount was corrected from null to its default, 1. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.LimitedCopperBarrelI was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.LimitedCopperBarrelI.baseSlotLimitMultiplier was corrected from null to its default, 53. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.LimitedCopperBarrelI.upgradeSlotCount was corrected from null to its default, 1. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.LimitedIronBarrelI was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.LimitedIronBarrelI.baseSlotLimitMultiplier was corrected from null to its default, 64. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.LimitedIronBarrelI.upgradeSlotCount was corrected from null to its default, 2. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.LimitedGoldBarrelI was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.LimitedGoldBarrelI.baseSlotLimitMultiplier was corrected from null to its default, 96. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.LimitedGoldBarrelI.upgradeSlotCount was corrected from null to its default, 3. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.LimitedDiamondBarrelI was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.LimitedDiamondBarrelI.baseSlotLimitMultiplier was corrected from null to its default, 128. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.LimitedDiamondBarrelI.upgradeSlotCount was corrected from null to its default, 4. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.LimitedNetheriteBarrelI was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.LimitedNetheriteBarrelI.baseSlotLimitMultiplier was corrected from null to its default, 160. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.LimitedNetheriteBarrelI.upgradeSlotCount was corrected from null to its default, 5. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.LimitedBarrelII was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.LimitedBarrelII.baseSlotLimitMultiplier was corrected from null to its default, 16. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.LimitedBarrelII.upgradeSlotCount was corrected from null to its default, 1. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.LimitedCopperBarrelII was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.LimitedCopperBarrelII.baseSlotLimitMultiplier was corrected from null to its default, 27. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.LimitedCopperBarrelII.upgradeSlotCount was corrected from null to its default, 1. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.LimitedIronBarrelII was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.LimitedIronBarrelII.baseSlotLimitMultiplier was corrected from null to its default, 32. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.LimitedIronBarrelII.upgradeSlotCount was corrected from null to its default, 2. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.LimitedGoldBarrelII was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.LimitedGoldBarrelII.baseSlotLimitMultiplier was corrected from null to its default, 48. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.LimitedGoldBarrelII.upgradeSlotCount was corrected from null to its default, 3. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.LimitedDiamondBarrelII was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.LimitedDiamondBarrelII.baseSlotLimitMultiplier was corrected from null to its default, 64. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.LimitedDiamondBarrelII.upgradeSlotCount was corrected from null to its default, 4. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.LimitedNetheriteBarrelII was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.LimitedNetheriteBarrelII.baseSlotLimitMultiplier was corrected from null to its default, 80. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.LimitedNetheriteBarrelII.upgradeSlotCount was corrected from null to its default, 5. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.LimitedBarrelIII was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.LimitedBarrelIII.baseSlotLimitMultiplier was corrected from null to its default, 10. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.LimitedBarrelIII.upgradeSlotCount was corrected from null to its default, 1. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.LimitedCopperBarrelIII was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.LimitedCopperBarrelIII.baseSlotLimitMultiplier was corrected from null to its default, 17. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.LimitedCopperBarrelIII.upgradeSlotCount was corrected from null to its default, 1. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.LimitedIronBarrelIII was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.LimitedIronBarrelIII.baseSlotLimitMultiplier was corrected from null to its default, 20. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.LimitedIronBarrelIII.upgradeSlotCount was corrected from null to its default, 2. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.LimitedGoldBarrelIII was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.LimitedGoldBarrelIII.baseSlotLimitMultiplier was corrected from null to its default, 30. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.LimitedGoldBarrelIII.upgradeSlotCount was corrected from null to its default, 3. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.LimitedDiamondBarrelIII was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.LimitedDiamondBarrelIII.baseSlotLimitMultiplier was corrected from null to its default, 40. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.LimitedDiamondBarrelIII.upgradeSlotCount was corrected from null to its default, 4. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.LimitedNetheriteBarrelIII was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.LimitedNetheriteBarrelIII.baseSlotLimitMultiplier was corrected from null to its default, 50. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.LimitedNetheriteBarrelIII.upgradeSlotCount was corrected from null to its default, 5. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.LimitedBarrelIV was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.LimitedBarrelIV.baseSlotLimitMultiplier was corrected from null to its default, 8. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.LimitedBarrelIV.upgradeSlotCount was corrected from null to its default, 1. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.LimitedCopperBarrelIV was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.LimitedCopperBarrelIV.baseSlotLimitMultiplier was corrected from null to its default, 13. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.LimitedCopperBarrelIV.upgradeSlotCount was corrected from null to its default, 1. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.LimitedIronBarrelIV was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.LimitedIronBarrelIV.baseSlotLimitMultiplier was corrected from null to its default, 16. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.LimitedIronBarrelIV.upgradeSlotCount was corrected from null to its default, 2. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.LimitedGoldBarrelIV was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.LimitedGoldBarrelIV.baseSlotLimitMultiplier was corrected from null to its default, 24. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.LimitedGoldBarrelIV.upgradeSlotCount was corrected from null to its default, 3. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.LimitedDiamondBarrelIV was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.LimitedDiamondBarrelIV.baseSlotLimitMultiplier was corrected from null to its default, 32. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.LimitedDiamondBarrelIV.upgradeSlotCount was corrected from null to its default, 4. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.LimitedNetheriteBarrelIV was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.LimitedNetheriteBarrelIV.baseSlotLimitMultiplier was corrected from null to its default, 40. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.LimitedNetheriteBarrelIV.upgradeSlotCount was corrected from null to its default, 5. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.WoodChest was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.WoodChest.inventorySlotCount was corrected from null to its default, 27. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.WoodChest.upgradeSlotCount was corrected from null to its default, 1. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.CopperChest was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.CopperChest.inventorySlotCount was corrected from null to its default, 45. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.CopperChest.upgradeSlotCount was corrected from null to its default, 1. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.IronChest was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.IronChest.inventorySlotCount was corrected from null to its default, 54. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.IronChest.upgradeSlotCount was corrected from null to its default, 2. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.GoldChest was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.GoldChest.inventorySlotCount was corrected from null to its default, 81. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.GoldChest.upgradeSlotCount was corrected from null to its default, 3. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.DiamondChest was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.DiamondChest.inventorySlotCount was corrected from null to its default, 108. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.DiamondChest.upgradeSlotCount was corrected from null to its default, 4. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.NetheriteChest was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.NetheriteChest.inventorySlotCount was corrected from null to its default, 132. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.NetheriteChest.upgradeSlotCount was corrected from null to its default, 5. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.ShulkerBox was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.ShulkerBox.inventorySlotCount was corrected from null to its default, 27. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.ShulkerBox.upgradeSlotCount was corrected from null to its default, 1. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.CopperShulkerBox was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.CopperShulkerBox.inventorySlotCount was corrected from null to its default, 45. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.CopperShulkerBox.upgradeSlotCount was corrected from null to its default, 1. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.IronShulkerBox was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.IronShulkerBox.inventorySlotCount was corrected from null to its default, 54. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.IronShulkerBox.upgradeSlotCount was corrected from null to its default, 2. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.GoldShulkerBox was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.GoldShulkerBox.inventorySlotCount was corrected from null to its default, 81. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.GoldShulkerBox.upgradeSlotCount was corrected from null to its default, 3. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.DiamondShulkerBox was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.DiamondShulkerBox.inventorySlotCount was corrected from null to its default, 108. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.DiamondShulkerBox.upgradeSlotCount was corrected from null to its default, 4. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.NetheriteShulkerBox was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.NetheriteShulkerBox.inventorySlotCount was corrected from null to its default, 132. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.NetheriteShulkerBox.upgradeSlotCount was corrected from null to its default, 5. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.shulkerBoxDisallowedItems was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.shulkerBoxDisallowedItems.disallowedItems was corrected from null to its default, []. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.shulkerBoxDisallowedItems.containerItemsDisallowed was corrected from null to its default, false. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.stackUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.stackUpgrade.nonStackableItems was corrected from null to its default, [minecraft:bundle, minecraft:shulker_box, minecraft:white_shulker_box, minecraft:orange_shulker_box, minecraft:magenta_shulker_box, minecraft:light_blue_shulker_box, minecraft:yellow_shulker_box, minecraft:lime_shulker_box, minecraft:pink_shulker_box, minecraft:gray_shulker_box, minecraft:light_gray_shulker_box, minecraft:cyan_shulker_box, minecraft:purple_shulker_box, minecraft:blue_shulker_box, minecraft:brown_shulker_box, minecraft:green_shulker_box, minecraft:red_shulker_box, minecraft:black_shulker_box]. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.compactingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.compactingUpgrade.filterSlots was corrected from null to its default, 9. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.compactingUpgrade.slotsInRow was corrected from null to its default, 3. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.advancedCompactingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.advancedCompactingUpgrade.filterSlots was corrected from null to its default, 16. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.advancedCompactingUpgrade.slotsInRow was corrected from null to its default, 4. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.depositUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.depositUpgrade.filterSlots was corrected from null to its default, 9. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.depositUpgrade.slotsInRow was corrected from null to its default, 3. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.advancedDepositUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.advancedDepositUpgrade.filterSlots was corrected from null to its default, 16. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.advancedDepositUpgrade.slotsInRow was corrected from null to its default, 4. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.feedingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.feedingUpgrade.filterSlots was corrected from null to its default, 9. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.feedingUpgrade.slotsInRow was corrected from null to its default, 3. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.advancedFeedingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.advancedFeedingUpgrade.filterSlots was corrected from null to its default, 16. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.advancedFeedingUpgrade.slotsInRow was corrected from null to its default, 4. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.filterUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.filterUpgrade.filterSlots was corrected from null to its default, 9. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.filterUpgrade.slotsInRow was corrected from null to its default, 3. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.advancedFilterUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.advancedFilterUpgrade.filterSlots was corrected from null to its default, 16. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.advancedFilterUpgrade.slotsInRow was corrected from null to its default, 4. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.magnetUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.magnetUpgrade.filterSlots was corrected from null to its default, 9. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.magnetUpgrade.slotsInRow was corrected from null to its default, 3. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.magnetUpgrade.magnetRange was corrected from null to its default, 3. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.advancedMagnetUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.advancedMagnetUpgrade.filterSlots was corrected from null to its default, 16. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.advancedMagnetUpgrade.slotsInRow was corrected from null to its default, 4. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.advancedMagnetUpgrade.magnetRange was corrected from null to its default, 5. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.pickupUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.pickupUpgrade.filterSlots was corrected from null to its default, 9. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.pickupUpgrade.slotsInRow was corrected from null to its default, 3. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.advancedPickupUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.advancedPickupUpgrade.filterSlots was corrected from null to its default, 16. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.advancedPickupUpgrade.slotsInRow was corrected from null to its default, 4. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.voidUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.voidUpgrade.filterSlots was corrected from null to its default, 9. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.voidUpgrade.slotsInRow was corrected from null to its default, 3. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.voidUpgrade.voidAnythingEnabled was corrected from null to its default, true. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.advancedVoidUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.advancedVoidUpgrade.filterSlots was corrected from null to its default, 16. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.advancedVoidUpgrade.slotsInRow was corrected from null to its default, 4. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.advancedVoidUpgrade.voidAnythingEnabled was corrected from null to its default, true. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.smeltingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.smeltingUpgrade.smeltingSpeedMultiplier was corrected from null to its default, 1.0. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.smeltingUpgrade.fuelEfficiencyMultiplier was corrected from null to its default, 1.0. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.smokingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.smokingUpgrade.smeltingSpeedMultiplier was corrected from null to its default, 1.0. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.smokingUpgrade.fuelEfficiencyMultiplier was corrected from null to its default, 1.0. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.blastingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.blastingUpgrade.smeltingSpeedMultiplier was corrected from null to its default, 1.0. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.blastingUpgrade.fuelEfficiencyMultiplier was corrected from null to its default, 1.0. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.autoSmeltingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.autoSmeltingUpgrade.smeltingSpeedMultiplier was corrected from null to its default, 1.0. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.autoSmeltingUpgrade.fuelEfficiencyMultiplier was corrected from null to its default, 1.0. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.autoSmeltingUpgrade.inputFilterSlots was corrected from null to its default, 8. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.autoSmeltingUpgrade.inputFilterSlotsInRow was corrected from null to its default, 4. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.autoSmeltingUpgrade.fuelFilterSlots was corrected from null to its default, 4. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.autoSmeltingUpgrade.fuelFilterSlotsInRow was corrected from null to its default, 4. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.autoSmokingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.autoSmokingUpgrade.smeltingSpeedMultiplier was corrected from null to its default, 1.0. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.autoSmokingUpgrade.fuelEfficiencyMultiplier was corrected from null to its default, 1.0. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.autoSmokingUpgrade.inputFilterSlots was corrected from null to its default, 8. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.autoSmokingUpgrade.inputFilterSlotsInRow was corrected from null to its default, 4. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.autoSmokingUpgrade.fuelFilterSlots was corrected from null to its default, 4. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.autoSmokingUpgrade.fuelFilterSlotsInRow was corrected from null to its default, 4. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.autoBlastingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.autoBlastingUpgrade.smeltingSpeedMultiplier was corrected from null to its default, 1.0. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.autoBlastingUpgrade.fuelEfficiencyMultiplier was corrected from null to its default, 1.0. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.autoBlastingUpgrade.inputFilterSlots was corrected from null to its default, 8. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.autoBlastingUpgrade.inputFilterSlotsInRow was corrected from null to its default, 4. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.autoBlastingUpgrade.fuelFilterSlots was corrected from null to its default, 4. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.autoBlastingUpgrade.fuelFilterSlotsInRow was corrected from null to its default, 4. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.pumpUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.pumpUpgrade.filterSlots was corrected from null to its default, 4. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.pumpUpgrade.maxInputOutput was corrected from null to its default, 20. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.pumpUpgrade.stackMultiplierRatio was corrected from null to its default, 1.0. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.xpPumpUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.xpPumpUpgrade.mendingOn was corrected from null to its default, true. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.xpPumpUpgrade.maxXpPointsPerMending was corrected from null to its default, 5. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.compressionUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.compressionUpgrade.maxNumberOfSlots was corrected from null to its default, 5. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.compressionUpgrade.additionalDecompressibleItems was corrected from null to its default, [minecraft:glowstone=4xminecraft:glowstone_dust, minecraft:quartz_block=4xminecraft:quartz]. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.hopperUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.hopperUpgrade.inputFilterSlots was corrected from null to its default, 2. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.hopperUpgrade.inputFilterSlotsInRow was corrected from null to its default, 2. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.hopperUpgrade.outputFilterSlots was corrected from null to its default, 2. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.hopperUpgrade.outputFilterSlotsInRow was corrected from null to its default, 2. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.hopperUpgrade.transferSpeedTicks was corrected from null to its default, 8. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.hopperUpgrade.maxTransferStackSize was corrected from null to its default, 1. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.advancedHopperUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.advancedHopperUpgrade.inputFilterSlots was corrected from null to its default, 4. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.advancedHopperUpgrade.inputFilterSlotsInRow was corrected from null to its default, 4. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.advancedHopperUpgrade.outputFilterSlots was corrected from null to its default, 4. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.advancedHopperUpgrade.outputFilterSlotsInRow was corrected from null to its default, 4. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.advancedHopperUpgrade.transferSpeedTicks was corrected from null to its default, 2. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.advancedHopperUpgrade.maxTransferStackSize was corrected from null to its default, 4. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.maxUpgradesPerStorage was corrected from null to its default, [barrel|jukebox_upgrade|1, barrel|furnace_upgrades|1, barrel|stack_upgrades|2, limited_barrel|jukebox_upgrade|1, limited_barrel|furnace_upgrades|1, chest|jukebox_upgrade|1, chest|furnace_upgrades|1, chest|stack_upgrades|2, shulker_box|jukebox_upgrade|1, shulker_box|furnace_upgrades|1, shulker_box|stack_upgrades|2]. 
+[16:15:27] [Server thread/WARN]: Incorrect key server.tooManyItemEntityDrops was corrected from null to its default, 200. 
+[16:15:27] [Server thread/WARN]: Configuration file .\world\serverconfig\openpartiesandclaims-server.toml is not correct. Correcting
+[16:15:27] [Server thread/WARN]: Incorrect key serverConfig was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key serverConfig.defaultLanguage was corrected from null to its default, en_us. 
+[16:15:27] [Server thread/WARN]: Incorrect key serverConfig.autosaveInterval was corrected from null to its default, 10. 
+[16:15:27] [Server thread/WARN]: Incorrect key serverConfig.playerSubConfigLimit was corrected from null to its default, 64. 
+[16:15:27] [Server thread/WARN]: Incorrect key serverConfig.permissionSystem was corrected from null to its default, ftb_ranks. 
+[16:15:27] [Server thread/WARN]: Incorrect key serverConfig.primaryPartySystem was corrected from null to its default, ftb_teams. 
+[16:15:27] [Server thread/WARN]: Incorrect key serverConfig.parties was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key serverConfig.parties.enabled was corrected from null to its default, true. 
+[16:15:27] [Server thread/WARN]: Incorrect key serverConfig.parties.maxPartyMembers was corrected from null to its default, 64. 
+[16:15:27] [Server thread/WARN]: Incorrect key serverConfig.parties.maxPartyAllies was corrected from null to its default, 64. 
+[16:15:27] [Server thread/WARN]: Incorrect key serverConfig.parties.maxPartyInvites was corrected from null to its default, 16. 
+[16:15:27] [Server thread/WARN]: Incorrect key serverConfig.parties.partyExpirationTime was corrected from null to its default, 720. 
+[16:15:27] [Server thread/WARN]: Incorrect key serverConfig.parties.partyExpirationCheckInterval was corrected from null to its default, 360. 
+[16:15:27] [Server thread/WARN]: Incorrect key serverConfig.claims was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key serverConfig.claims.enabled was corrected from null to its default, true. 
+[16:15:27] [Server thread/WARN]: Incorrect key serverConfig.claims.playerClaimsExpirationTime was corrected from null to its default, 8760. 
+[16:15:27] [Server thread/WARN]: Incorrect key serverConfig.claims.playerClaimsExpirationCheckInterval was corrected from null to its default, 360. 
+[16:15:27] [Server thread/WARN]: Incorrect key serverConfig.claims.playerClaimsConvertExpiredClaims was corrected from null to its default, true. 
+[16:15:27] [Server thread/WARN]: Incorrect key serverConfig.claims.maxPlayerClaims was corrected from null to its default, 500. 
+[16:15:27] [Server thread/WARN]: Incorrect key serverConfig.claims.maxPlayerClaimForceloads was corrected from null to its default, 10. 
+[16:15:27] [Server thread/WARN]: Incorrect key serverConfig.claims.maxPlayerClaimsPermission was corrected from null to its default, xaero.pac_max_claims. 
+[16:15:27] [Server thread/WARN]: Incorrect key serverConfig.claims.maxPlayerClaimForceloadsPermission was corrected from null to its default, xaero.pac_max_forceloads. 
+[16:15:27] [Server thread/WARN]: Incorrect key serverConfig.claims.serverClaimPermission was corrected from null to its default, xaero.pac_server_claims. 
+[16:15:27] [Server thread/WARN]: Incorrect key serverConfig.claims.adminModePermission was corrected from null to its default, xaero.pac_admin_mode. 
+[16:15:27] [Server thread/WARN]: Incorrect key serverConfig.claims.maxClaimDistance was corrected from null to its default, 5. 
+[16:15:27] [Server thread/WARN]: Incorrect key serverConfig.claims.claimableDimensionsListType was corrected from null to its default, ALL_BUT. 
+[16:15:27] [Server thread/WARN]: Incorrect key serverConfig.claims.claimableDimensionsList was corrected from null to its default, []. 
+[16:15:27] [Server thread/WARN]: Incorrect key serverConfig.claims.allowExistingClaimsInUnclaimableDimensions was corrected from null to its default, true. 
+[16:15:27] [Server thread/WARN]: Incorrect key serverConfig.claims.allowExistingForceloadsInUnclaimableDimensions was corrected from null to its default, false. 
+[16:15:27] [Server thread/WARN]: Incorrect key serverConfig.claims.claimsSynchronization was corrected from null to its default, ALL. 
+[16:15:27] [Server thread/WARN]: Incorrect key serverConfig.claims.protection was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:15:27] [Server thread/WARN]: Incorrect key serverConfig.claims.protection.friendlyChunkProtectedEntityListType was corrected from null to its default, ALL_BUT. 
+[16:15:27] [Server thread/WARN]: Incorrect key serverConfig.claims.protection.friendlyChunkProtectedEntityList was corrected from null to its default, [minecraft:boat]. 
+[16:15:27] [Server thread/WARN]: Incorrect key serverConfig.claims.protection.hostileChunkProtectedEntityListType was corrected from null to its default, ONLY. 
+[16:15:27] [Server thread/WARN]: Incorrect key serverConfig.claims.protection.hostileChunkProtectedEntityList was corrected from null to its default, []. 
+[16:15:27] [Server thread/WARN]: Incorrect key serverConfig.claims.protection.blockProtectionExceptionList was corrected from null to its default, []. 
+[16:15:27] [Server thread/WARN]: Incorrect key serverConfig.claims.protection.entityProtectionExceptionList was corrected from null to its default, []. 
+[16:15:27] [Server thread/WARN]: Incorrect key serverConfig.claims.protection.entityClaimBarrierList was corrected from null to its default, []. 
+[16:15:27] [Server thread/WARN]: Incorrect key serverConfig.claims.protection.forcedBlockProtectionExceptionList was corrected from null to its default, [minecraft:crafting_table]. 
+[16:15:27] [Server thread/WARN]: Incorrect key serverConfig.claims.protection.blockProtectionOptionalExceptionGroups was corrected from null to its default, [Controls{minecraft:lever, #minecraft:buttons}, Doors{#minecraft:doors, #minecraft:fence_gates, #forge:fence_gates, #minecraft:trapdoors}, Chests{minecraft:chest, minecraft:trapped_chest, #forge:chests/wooden}, Barrels{minecraft:barrel, #forge:barrels}, Ender_Chests{minecraft:ender_chest, #forge:chests/ender}, Shulker_Boxes{#minecraft:shulker_boxes}, Furnaces{minecraft:furnace, minecraft:blast_furnace, minecraft:smoker}, Hoppers{minecraft:hopper}, Dispenser-like{minecraft:dispenser, minecraft:dropper}, Anvils{#minecraft:anvil}, Beds{#minecraft:beds}, Beacons{minecraft:beacon}, Enchanting_Tables{minecraft:enchanting_table}, break$Crops{#minecraft:crops}]. 
+[16:15:27] [Server thread/WARN]: Incorrect key serverConfig.claims.protection.forcedEntityProtectionExceptionList was corrected from null to its default, [minecraft:minecart]. 
+[16:15:27] [Server thread/WARN]: Incorrect key serverConfig.claims.protection.entityProtectionOptionalExceptionGroups was corrected from null to its default, [Traders{minecraft:villager, minecraft:wandering_trader}, hand$Item_Frames{minecraft:item_frame}, break$Livestock{minecraft:cow, minecraft:mooshroom, minecraft:sheep, minecraft:chicken, minecraft:pig, minecraft:rabbit, minecraft:goat}, Armor_Stands{minecraft:armor_stand}]. 
+[16:15:27] [Server thread/WARN]: Incorrect key serverConfig.claims.protection.forcedEntityClaimBarrierList was corrected from null to its default, [minecraft:falling_block, supplementaries:slingshot_projectile]. 
+[16:15:27] [Server thread/WARN]: Incorrect key serverConfig.claims.protection.entityClaimBarrierOptionalGroups was corrected from null to its default, [Players{minecraft:player}, Ender_Pearls{minecraft:ender_pearl}]. 
+[16:15:27] [Server thread/WARN]: Incorrect key serverConfig.claims.protection.entitiesAllowedToGrief was corrected from null to its default, [minecraft:sheep, interact$minecraft:potion, interact$minecraft:trident, interact$minecraft:(*_|)arrow, interact$minecraft:ender_pearl, interact$minecraft:egg]. 
+[16:15:27] [Server thread/WARN]: Incorrect key serverConfig.claims.protection.entitiesAllowedToGriefEntities was corrected from null to its default, [interact$minecraft:potion, interact$minecraft:trident, interact$minecraft:(*_|)arrow, interact$minecraft:ender_pearl, interact$minecraft:egg]. 
+[16:15:27] [Server thread/WARN]: Incorrect key serverConfig.claims.protection.entitiesAllowedToGriefDroppedItems was corrected from null to its default, []. 
+[16:15:27] [Server thread/WARN]: Incorrect key serverConfig.claims.protection.nonBlockGriefingMobs was corrected from null to its default, []. 
+[16:15:27] [Server thread/WARN]: Incorrect key serverConfig.claims.protection.entityGriefingMobs was corrected from null to its default, []. 
+[16:15:27] [Server thread/WARN]: Incorrect key serverConfig.claims.protection.droppedItemGriefingMobs was corrected from null to its default, []. 
+[16:15:27] [Server thread/WARN]: Incorrect key serverConfig.claims.protection.blockAccessEntityGroups was corrected from null to its default, [Villagers{minecraft:villager}]. 
+[16:15:27] [Server thread/WARN]: Incorrect key serverConfig.claims.protection.entityAccessEntityGroups was corrected from null to its default, [Zombies{minecraft:zombie, minecraft:zombie_villager, minecraft:husk, minecraft:drowned}]. 
+[16:15:27] [Server thread/WARN]: Incorrect key serverConfig.claims.protection.droppedItemAccessEntityGroups was corrected from null to its default, [Villagers{minecraft:villager}, Piglins{minecraft:piglin}, Foxes{minecraft:fox}]. 
+[16:15:27] [Server thread/WARN]: Incorrect key serverConfig.claims.protection.staticFakePlayers was corrected from null to its default, [[IntegratedTunnels]]. 
+[16:15:27] [Server thread/WARN]: Incorrect key serverConfig.claims.protection.staticFakePlayerClassExceptions was corrected from null to its default, [dan200.computercraft.shared.turtle.core.TurtlePlayer]. 
+[16:15:27] [Server thread/WARN]: Incorrect key serverConfig.claims.protection.additionalBannedItemsList was corrected from null to its default, [supplementaries:slingshot]. 
+[16:15:27] [Server thread/WARN]: Incorrect key serverConfig.claims.protection.itemUseProtectionExceptionList was corrected from null to its default, [minecraft:firework_rocket]. 
+[16:15:27] [Server thread/WARN]: Incorrect key serverConfig.claims.protection.itemUseProtectionOptionalExceptionGroups was corrected from null to its default, [Books{minecraft:written_book, minecraft:writable_book}]. 
+[16:15:27] [Server thread/WARN]: Incorrect key serverConfig.claims.protection.completelyDisabledItemInteractions was corrected from null to its default, []. 
+[16:15:27] [Server thread/WARN]: Incorrect key serverConfig.claims.protection.completelyDisabledBlockInteractions was corrected from null to its default, []. 
+[16:15:27] [Server thread/WARN]: Incorrect key serverConfig.claims.protection.completelyDisabledEntityInteractions was corrected from null to its default, []. 
+[16:15:27] [Server thread/WARN]: Incorrect key serverConfig.claims.protection.completelyDisableFrostWalking was corrected from null to its default, false. 
+[16:15:27] [Server thread/WARN]: Incorrect key serverConfig.claims.protection.reducedBoatEntityCollisions was corrected from null to its default, true. 
+[16:15:27] [Server thread/WARN]: Incorrect key serverConfig.playerConfigurablePlayerConfigOptions was corrected from null to its default, [claims.protectClaimedChunks, claims.forceload.enabled, claims.name, claims.color, claims.protection.fromParty, claims.protection.fromAllyParties, claims.protection.buttonsFromProjectiles, claims.protection.targetsFromProjectiles, claims.protection.platesFromPlayers, claims.protection.platesFromMobs, claims.protection.platesFromOther, claims.protection.tripwireFromPlayers, claims.protection.tripwireFromMobs, claims.protection.tripwireFromOther, claims.protection.cropTrample, claims.protection.playerLightning, claims.protection.fromFrostWalking, claims.protection.entitiesFromPlayers, claims.protection.entitiesFromMobs, claims.protection.entitiesFromOther, claims.protection.entitiesRedirect, claims.protection.entitiesFromExplosions, claims.protection.entitiesFromFire, claims.protection.netherPortalsPlayers, claims.protection.netherPortalsMobs, claims.protection.netherPortalsOther, claims.protection.fluidBarrier, claims.protection.dispenserBarrier, claims.protection.pistonBarrier, claims.protection.itemTossPlayers, claims.protection.itemTossMobs, claims.protection.itemTossOther, claims.protection.itemTossRedirect, claims.protection.mobLoot, claims.protection.playerDeathLoot, claims.protection.itemPickupPlayers, claims.protection.itemPickupMobs, claims.protection.itemPickupRedirect, claims.protection.xpPickup, claims.protection.raids, claims.protection.naturalSpawnHostile, claims.protection.naturalSpawnFriendly, claims.protection.spawnersHostile, claims.protection.spawnersFriendly, claims.protection.projectileHitHostileSpawn, claims.protection.projectileHitFriendlySpawn, parties.name, parties.shareLocationWithParty, parties.shareLocationWithMutualAllyParties, parties.receiveLocationsFromParty, parties.receiveLocationsFromMutualAllyParties, claims.protection.exceptionGroups.block.interact.Controls, claims.protection.exceptionGroups.block.interact.Doors, claims.protection.exceptionGroups.block.interact.Chests, claims.protection.exceptionGroups.block.interact.Barrels, claims.protection.exceptionGroups.block.interact.Ender_Chests, claims.protection.exceptionGroups.block.interact.Shulker_Boxes, claims.protection.exceptionGroups.block.interact.Furnaces, claims.protection.exceptionGroups.block.interact.Hoppers, claims.protection.exceptionGroups.block.interact.Dispenser-like, claims.protection.exceptionGroups.block.interact.Anvils, claims.protection.exceptionGroups.block.interact.Beds, claims.protection.exceptionGroups.block.interact.Beacons, claims.protection.exceptionGroups.block.interact.Enchanting_Tables, claims.protection.exceptionGroups.block.break.Crops, claims.protection.exceptionGroups.entity.interact.Traders, claims.protection.exceptionGroups.entity.handInteract.Item_Frames, claims.protection.exceptionGroups.entity.interact.Armor_Stands, claims.protection.exceptionGroups.entity.break.Livestock, claims.protection.exceptionGroups.entity.blockAccess.Villagers, claims.protection.exceptionGroups.entity.entityAccess.Zombies, claims.protection.exceptionGroups.entity.droppedItemAccess.Villagers, claims.protection.exceptionGroups.entity.droppedItemAccess.Piglins, claims.protection.exceptionGroups.entity.droppedItemAccess.Foxes, claims.protection.exceptionGroups.item.interact.Books, claims.protection.exceptionGroups.entity.barrier.Ender_Pearls, /*remove comment to enable*/claims.protection.exceptionGroups.entity.barrier.Players]. 
+[16:15:27] [Server thread/WARN]: Incorrect key serverConfig.opConfigurablePlayerConfigOptions was corrected from null to its default, [claims.bonusChunkClaims, claims.bonusChunkForceloads]. 
+[16:15:27] [Server thread/INFO]: Starting minecraft server version 1.19.2
+[16:15:27] [Server thread/INFO]: Loading properties
+[16:15:27] [Server thread/INFO]: Default game type: SURVIVAL
+[16:15:27] [Server thread/INFO]: Generating keypair
+[16:15:27] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:15:27] [Server thread/INFO]: Using default channel type
+[16:15:27] [Server thread/INFO]: Preparing level "world"
+[16:15:27] [Server thread/INFO]: Initializing Open Parties and Claims for the server...
+[16:15:27] [Server thread/INFO]: Loading server info!
+[16:15:28] [Server thread/INFO]: Loading player configs...
+[16:15:28] [Server thread/INFO]: Loaded player configs!
+[16:15:28] [Server thread/INFO]: Loading parties...
+[16:15:28] [Server thread/INFO]: Loaded parties!
+[16:15:28] [Server thread/INFO]: Fixing party inconsistencies...
+[16:15:28] [Server thread/INFO]: Registered party system for OPAC: default
+[16:15:58] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[16:15:59] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[16:15:59] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[16:15:59] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[16:15:59] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[16:16:00] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[16:16:00] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[16:16:01] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[16:16:01] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[16:16:02] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[16:16:02] [Worker-Main-3/INFO]: Preparing spawn area: 1%
+[16:16:03] [Worker-Main-2/INFO]: Preparing spawn area: 2%
+[16:16:03] [Worker-Main-1/INFO]: Preparing spawn area: 3%
+[16:16:04] [Worker-Main-2/INFO]: Preparing spawn area: 4%
+[16:16:05] [Worker-Main-1/INFO]: Preparing spawn area: 4%
+[16:16:05] [Worker-Main-1/INFO]: Preparing spawn area: 4%
+[16:16:05] [Worker-Main-1/INFO]: Preparing spawn area: 6%
+[16:16:06] [Worker-Main-2/INFO]: Preparing spawn area: 7%
+[16:16:06] [Worker-Main-2/INFO]: Preparing spawn area: 8%
+[16:16:07] [Worker-Main-2/INFO]: Preparing spawn area: 9%
+[16:16:07] [Worker-Main-2/INFO]: Preparing spawn area: 10%
+[16:16:08] [Worker-Main-1/INFO]: Preparing spawn area: 12%
+[16:16:08] [Worker-Main-1/WARN]: Empty or non-existent pool: minecraft:
+[16:16:08] [Worker-Main-1/WARN]: Empty or non-existent pool: minecraft:
+[16:16:08] [Worker-Main-1/WARN]: Empty or non-existent pool: minecraft:
+[16:16:08] [Worker-Main-1/WARN]: Empty or non-existent pool: minecraft:
+[16:16:08] [Worker-Main-3/INFO]: Preparing spawn area: 13%
+[16:16:09] [Worker-Main-1/WARN]: Empty or non-existent pool: minecraft:
+[16:16:09] [Worker-Main-1/WARN]: Empty or non-existent pool: minecraft:
+[16:16:09] [Worker-Main-1/WARN]: Empty or non-existent pool: minecraft:
+[16:16:09] [Worker-Main-1/WARN]: Empty or non-existent pool: minecraft:
+[16:16:09] [Worker-Main-3/INFO]: Preparing spawn area: 15%
+[16:16:09] [Worker-Main-3/INFO]: Preparing spawn area: 16%
+[16:16:10] [Worker-Main-2/INFO]: Preparing spawn area: 17%
+[16:16:10] [Worker-Main-1/INFO]: Preparing spawn area: 18%
+[16:16:11] [Worker-Main-1/INFO]: Preparing spawn area: 20%
+[16:16:11] [Worker-Main-3/ERROR]: Hanging entity at invalid position: class_2338{x=202, y=47, z=211}
+[16:16:11] [Worker-Main-2/INFO]: Preparing spawn area: 22%
+[16:16:14] [Worker-Main-3/INFO]: Preparing spawn area: 22%
+[16:16:14] [Worker-Main-1/INFO]: Preparing spawn area: 22%
+[16:16:14] [Worker-Main-1/INFO]: Preparing spawn area: 22%
+[16:16:14] [Worker-Main-1/INFO]: Preparing spawn area: 22%
+[16:16:14] [Worker-Main-3/INFO]: Preparing spawn area: 22%
+[16:16:14] [Worker-Main-2/INFO]: Preparing spawn area: 24%
+[16:16:15] [Worker-Main-1/INFO]: Preparing spawn area: 26%
+[16:16:15] [Worker-Main-1/INFO]: Preparing spawn area: 28%
+[16:16:16] [Worker-Main-1/INFO]: Preparing spawn area: 30%
+[16:16:16] [Worker-Main-3/INFO]: Preparing spawn area: 31%
+[16:16:17] [Worker-Main-2/INFO]: Preparing spawn area: 34%
+[16:16:17] [Worker-Main-2/INFO]: Preparing spawn area: 36%
+[16:16:18] [Worker-Main-3/INFO]: Preparing spawn area: 38%
+[16:16:18] [Worker-Main-1/INFO]: Preparing spawn area: 40%
+[16:16:19] [Worker-Main-1/INFO]: Preparing spawn area: 42%
+[16:16:19] [Worker-Main-3/INFO]: Preparing spawn area: 43%
+[16:16:20] [Worker-Main-1/INFO]: Preparing spawn area: 46%
+[16:16:20] [Worker-Main-3/INFO]: Preparing spawn area: 48%
+[16:16:22] [Worker-Main-1/INFO]: Preparing spawn area: 49%
+[16:16:22] [Worker-Main-3/INFO]: Preparing spawn area: 49%
+[16:16:22] [Worker-Main-1/INFO]: Preparing spawn area: 49%
+[16:16:22] [Worker-Main-2/INFO]: Preparing spawn area: 50%
+[16:16:23] [Worker-Main-3/INFO]: Preparing spawn area: 53%
+[16:16:23] [Worker-Main-1/INFO]: Preparing spawn area: 54%
+[16:16:24] [Worker-Main-1/INFO]: Preparing spawn area: 56%
+[16:16:24] [Worker-Main-3/INFO]: Preparing spawn area: 58%
+[16:16:25] [Worker-Main-3/INFO]: Preparing spawn area: 60%
+[16:16:25] [Worker-Main-2/INFO]: Preparing spawn area: 62%
+[16:16:26] [Worker-Main-1/INFO]: Preparing spawn area: 65%
+[16:16:26] [Worker-Main-3/INFO]: Preparing spawn area: 68%
+[16:16:27] [Worker-Main-3/INFO]: Preparing spawn area: 69%
+[16:16:27] [Worker-Main-1/INFO]: Preparing spawn area: 70%
+[16:16:28] [Worker-Main-3/INFO]: Preparing spawn area: 72%
+[16:16:28] [Worker-Main-2/INFO]: Preparing spawn area: 73%
+[16:16:29] [Worker-Main-3/INFO]: Preparing spawn area: 75%
+[16:16:29] [Worker-Main-2/INFO]: Preparing spawn area: 77%
+[16:16:30] [Worker-Main-3/INFO]: Preparing spawn area: 80%
+[16:16:30] [Worker-Main-3/INFO]: Preparing spawn area: 83%
+[16:16:31] [Worker-Main-3/INFO]: Preparing spawn area: 83%
+[16:16:31] [Worker-Main-3/INFO]: Preparing spawn area: 85%
+[16:16:32] [Worker-Main-3/INFO]: Preparing spawn area: 87%
+[16:16:32] [Worker-Main-2/INFO]: Preparing spawn area: 89%
+[16:16:33] [Worker-Main-1/INFO]: Preparing spawn area: 92%
+[16:16:33] [Worker-Main-2/INFO]: Preparing spawn area: 95%
+[16:16:33] [Worker-Main-3/WARN]: Empty or non-existent pool: minecraft:
+[16:16:33] [Worker-Main-3/WARN]: Empty or non-existent pool: minecraft:
+[16:16:33] [Worker-Main-3/WARN]: Empty or non-existent pool: minecraft:
+[16:16:33] [Worker-Main-3/WARN]: Empty or non-existent pool: minecraft:
+[16:16:34] [Worker-Main-3/INFO]: Preparing spawn area: 97%
+[16:16:34] [Server thread/INFO]: Time elapsed: 36347 ms
+[16:16:34] [Server thread/INFO]: Done (66.711s)! For help, type "help"
+[16:16:34] [Server thread/INFO]: Loading claims...
+[16:16:34] [Server thread/INFO]: Loaded claims in 1ms
+[16:16:34] [Server thread/WARN]: The configured permission system "ftb_ranks" isn't registered!
+[16:16:34] [Server thread/WARN]: The configured primary party system "ftb_teams" isn't registered!
+[16:16:34] [Server thread/INFO]: Configured OPAC to use the following party system as primary: default
+[16:16:34] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[16:16:34] [Server thread/INFO]: Loading Xaero's World Map - Stage 2/2 (Server)
+[16:37:15] [Server thread/INFO]: com.mojang.authlib.GameProfile@5c027fb5[id=<null>,name=lyezinho,properties={},legacy=false] (/127.0.0.1:53849) lost connection: Disconnected
+[16:37:24] [User Authenticator #1/INFO]: UUID of player lyezinho is e0a0aa46-316a-4641-a62b-fefd7eb8801f
+[16:37:24] [Server thread/INFO]: lyezinho[/127.0.0.1:53862] logged in with entity id 334 at (4.5, 68.0, 35.5)
+[16:37:25] [Server thread/INFO]: lyezinho joined the game
+[16:37:26] [Server thread/INFO]: Updating all forceload tickets for e0a0aa46-316a-4641-a62b-fefd7eb8801f
+[16:37:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2060ms or 41 ticks behind
+[16:37:37] [Worker-Main-19/WARN]: Empty or non-existent pool: minecraft:
+[16:37:38] [Worker-Main-19/WARN]: Empty or non-existent pool: minecraft:
+[16:37:38] [Worker-Main-19/WARN]: Empty or non-existent pool: minecraft:
+[16:37:38] [Worker-Main-19/WARN]: Empty or non-existent pool: minecraft:
+[16:37:38] [Worker-Main-19/WARN]: Empty or non-existent pool: minecraft:
+[16:38:42] [Server thread/INFO]: lyezinho lost connection: Disconnected
+[16:38:42] [Server thread/INFO]: lyezinho left the game
+[16:38:42] [Server thread/INFO]: Updating all forceload tickets for e0a0aa46-316a-4641-a62b-fefd7eb8801f

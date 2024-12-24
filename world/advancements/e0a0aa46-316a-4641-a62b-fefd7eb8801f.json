@@ -1,0 +1,15 @@
+{
+  "lootr:root": {
+    "criteria": {
+      "always_true": "2024-12-24 16:37:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2024-12-24 16:37:29 +0000"
+    },
+    "done": false
+  },
+  "DataVersion": 3120
+}
