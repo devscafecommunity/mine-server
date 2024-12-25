@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [25dez.2024 01:41:18.811] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 43.4.0, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853]
 [25dez.2024 01:41:18.818] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.10 by Oracle Corporation; OS Windows 10 arch amd64 version 10.0
 [25dez.2024 01:41:21.276] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/F:/github/mine-server/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2363!/ Service=ModLauncher Env=SERVER
@@ -491,11 +492,99 @@
 java.net.ConnectException: null
 	at jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:573) ~[java.net.http:?]
 	at jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:123) ~[java.net.http:?]
+=======
+[25Dec2024 02:10:24.297] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 43.4.0, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853]
+[25Dec2024 02:10:24.302] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 21.0.5 by Ubuntu; OS Linux arch amd64 version 6.8.0-1018-azure
+[25Dec2024 02:10:25.285] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/home/rootuser/minedevs/mine-server/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2363!/ Service=ModLauncher Env=SERVER
+[25Dec2024 02:10:25.759] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/rootuser/minedevs/mine-server/libraries/net/minecraftforge/fmlcore/1.19.2-43.4.0/fmlcore-1.19.2-43.4.0.jar is missing mods.toml file
+[25Dec2024 02:10:25.763] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/rootuser/minedevs/mine-server/libraries/net/minecraftforge/javafmllanguage/1.19.2-43.4.0/javafmllanguage-1.19.2-43.4.0.jar is missing mods.toml file
+[25Dec2024 02:10:25.764] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/rootuser/minedevs/mine-server/libraries/net/minecraftforge/lowcodelanguage/1.19.2-43.4.0/lowcodelanguage-1.19.2-43.4.0.jar is missing mods.toml file
+[25Dec2024 02:10:25.766] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/rootuser/minedevs/mine-server/libraries/net/minecraftforge/mclanguage/1.19.2-43.4.0/mclanguage-1.19.2-43.4.0.jar is missing mods.toml file
+[25Dec2024 02:10:26.032] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[25Dec2024 02:10:26.033] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: curios. Using Mod File: /home/rootuser/minedevs/mine-server/mods/curios-forge-1.19.2-5.1.6.4.jar
+[25Dec2024 02:10:26.034] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 9 dependencies adding them to mods collection
+[25Dec2024 02:10:29.954] [main/ERROR] [mixin/]: Mixin config dynamiclightsreforged.mixins.json does not specify "minVersion" property
+[25Dec2024 02:10:29.964] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[25Dec2024 02:10:30.113] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[25Dec2024 02:10:30.357] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.18.1+mc1.19.2: 87 options available, 0 override(s) found
+[25Dec2024 02:10:30.358] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[25Dec2024 02:10:30.373] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[25Dec2024 02:10:30.511] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 94 options available, 0 override(s) found
+[25Dec2024 02:10:30.524] [main/WARN] [mixin/]: Reference map 'cobblemon-forge-refmap.json' for mixins.cobblemon-forge.json could not be read. If this is a development environment you can ignore this message
+[25Dec2024 02:10:30.606] [main/WARN] [mixin/]: Reference map 'nitrogen_internals.refmap.json' for nitrogen_internals.mixins.json could not be read. If this is a development environment you can ignore this message
+[25Dec2024 02:10:30.645] [main/WARN] [mixin/]: Error loading class: dev/latvian/mods/kubejs/recipe/RecipesEventJS (java.lang.ClassNotFoundException: dev.latvian.mods.kubejs.recipe.RecipesEventJS)
+[25Dec2024 02:10:30.646] [main/WARN] [mixin/]: @Mixin target dev.latvian.mods.kubejs.recipe.RecipesEventJS was not found cucumber.mixins.json:RecipeEventJSMixin
+[25Dec2024 02:10:32.405] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.6).
+[25Dec2024 02:10:33.667] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (11.96 s after launch)
+[25Dec2024 02:10:33.860] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[25Dec2024 02:10:33.861] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[25Dec2024 02:10:36.383] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 2707 milliseconds
+[25Dec2024 02:10:39.078] [main/WARN] [mixin/]: Static binding violation: PRIVATE @Overwrite method m_47505_ in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[25Dec2024 02:10:40.284] [main/INFO] [com.cobblemon.mod.common.Cobblemon/]: Booting LaxPermissionValidator, permissions will be checked using Minecrafts permission level system, see https://minecraft.fandom.com/wiki/Permission_level
+[25Dec2024 02:10:41.105] [modloading-worker-0/INFO] [dynamiclightsreforged/]: [LambDynLights] Initializing Dynamic Lights Reforged...
+[25Dec2024 02:10:41.141] [modloading-worker-0/INFO] [paucal/]: Hello PAUCAL! This is FORGE!
+[25Dec2024 02:10:42.232] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
+[25Dec2024 02:10:42.235] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
+[25Dec2024 02:10:42.235] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
+[25Dec2024 02:10:42.235] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
+[25Dec2024 02:10:42.236] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
+[25Dec2024 02:10:42.236] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
+[25Dec2024 02:10:42.236] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
+[25Dec2024 02:10:42.844] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.4.0, for MC 1.19.2 with MCP 20220805.130853
+[25Dec2024 02:10:42.846] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.4.0 Initialized
+[25Dec2024 02:10:43.342] [modloading-worker-0/INFO] [Mystical Agriculture/]: Registered plugin: com.blakebr0.mysticalagriculture.lib.ModCorePlugin
+[25Dec2024 02:10:43.354] [modloading-worker-0/INFO] [Mystical Agriculture/]: Registered plugin: com.blakebr0.mysticalagradditions.lib.ModCorePlugin
+[25Dec2024 02:10:44.130] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
+[25Dec2024 02:10:44.844] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 7.64.
+[25Dec2024 02:10:45.435] [modloading-worker-0/INFO] [com.cobblemon.mod.common.Cobblemon/]: Starting the Best Spawner...
+[25Dec2024 02:10:45.447] [modloading-worker-0/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loaded 5 spawning condition types.
+[25Dec2024 02:10:45.467] [modloading-worker-0/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loaded 5 spawning context types.
+[25Dec2024 02:10:45.474] [modloading-worker-0/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loaded 1 spawn detail types.
+[25Dec2024 02:10:46.022] [modloading-worker-0/INFO] [com.cobblemon.mod.common.Cobblemon/]: Booting ForgePermissionApiPermissionValidator, player permissions will be checked using MinecraftForge' PermissionAPI, non player command sources will use Minecraft' permission level system, see https://docs.minecraftforge.net/en/latest/ and https://minecraft.fandom.com/wiki/Permission_level
+[25Dec2024 02:10:46.033] [modloading-worker-0/INFO] [com.aetherteam.cumulus.Cumulus/]: Disabling Cumulus as it is on server.
+[25Dec2024 02:10:46.114] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[25Dec2024 02:10:48.643] [main/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ae2wtlib:cycle_terminal
+[25Dec2024 02:10:48.794] [main/INFO] [ModernFix/]: Bypassed Mojang DFU
+[25Dec2024 02:10:48.795] [main/INFO] [ModernFix/]: Instantiating Mojang DFU
+[25Dec2024 02:10:49.332] [main/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
+[25Dec2024 02:10:50.175] [modloading-worker-0/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loading Open Parties and Claims!
+[25Dec2024 02:10:50.398] [Thread-0/INFO] [ModernFix/]: Please use /mfsrc to reload any changed mod config files
+[25Dec2024 02:10:50.476] [modloading-worker-0/INFO] [mekanism.common.Mekanism/]: Version 10.3.9 initializing...
+[25Dec2024 02:10:50.492] [modloading-worker-0/INFO] [mekanism.common.Mekanism/]: Loaded 'Mekanism: Generators' module.
+[25Dec2024 02:10:50.605] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 clay_ball = 1 clay
+[25Dec2024 02:10:50.606] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 snowball = 1 snow_block
+[25Dec2024 02:10:50.607] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 glowstone_dust = 1 glowstone
+[25Dec2024 02:10:50.607] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 brick = 1 bricks
+[25Dec2024 02:10:50.607] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 nether_brick = 1 nether_bricks
+[25Dec2024 02:10:50.608] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 9 nether_wart = 1 nether_wart_block
+[25Dec2024 02:10:50.610] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 quartz = 1 quartz_block
+[25Dec2024 02:10:50.610] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 9 melon_slice = 1 melon
+[25Dec2024 02:10:50.611] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 sand = 1 sandstone
+[25Dec2024 02:10:50.613] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 red_sand = 1 red_sandstone
+[25Dec2024 02:10:50.676] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aether] Starting version check at https://github.com/The-Aether-Team/The-Aether/raw/1.19.2-develop/update.json
+[25Dec2024 02:10:50.697] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 clay_ball = 1 clay
+[25Dec2024 02:10:50.698] [modloading-worker-0/INFO] [com.cobblemon.mod.common.Cobblemon/]: Initializing...
+[25Dec2024 02:10:50.707] [Cobblemon Showdown/INFO] [com.cobblemon.mod.common.Cobblemon/]: Starting showdown service...
+[25Dec2024 02:10:50.718] [modloading-worker-0/INFO] [mekanism.common.Mekanism/]: Fake player readout: UUID = 46e82cd0-d480-3d48-800a-77431ede078e, name = [Mekanism]
+[25Dec2024 02:10:50.718] [modloading-worker-0/INFO] [mekanism.common.Mekanism/]: Mod loaded.
+[25Dec2024 02:10:50.719] [modloading-worker-0/INFO] [mekanism.common.Mekanism/]: Loaded 'Mekanism: Tools' module.
+[25Dec2024 02:10:51.307] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aether] Found status: UP_TO_DATE Current: 1.19.2-1.5.1-forge Target: null
+[25Dec2024 02:10:51.308] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [botanypots] Starting version check at https://updates.blamejared.com/get?n=botanypots&gv=1.19.2
+[25Dec2024 02:10:51.739] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [botanypots] Found status: BETA_OUTDATED Current: 9.0.43 Target: 9.0.44
+[25Dec2024 02:10:51.743] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Starting version check at https://updates.blamejared.com/get?n=bookshelf&gv=1.19.2
+[25Dec2024 02:10:51.878] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Found status: BETA Current: 16.3.20 Target: 16.3.20
+[25Dec2024 02:10:51.881] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dungeons_andtaverns_mr] Starting version check at https://api.modrinth.comauth/init?url=https://modrinth.com/datapack/dungeons-and-taverns/version/2.0.2/updates/tpehi7ww/forge_updates.json
+[25Dec2024 02:10:51.918] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+java.net.ConnectException: null
+	at jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:951) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133) ~[java.net.http:?]
+>>>>>>> b7edcb7d7b02e2f3bf6f61cd0d970f87479bbb04
 	at net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:139) ~[fmlcore-1.19.2-43.4.0.jar%23212!/:?]
 	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:177) ~[fmlcore-1.19.2-43.4.0.jar%23212!/:?]
 	at java.lang.Iterable.forEach(Iterable.java:75) [?:?]
 	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) [fmlcore-1.19.2-43.4.0.jar%23212!/:?]
 Caused by: java.net.ConnectException
+<<<<<<< HEAD
 	at jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1055) ~[java.net.http:?]
 	at jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:198) ~[java.net.http:?]
 	at jdk.internal.net.http.AsyncSSLConnection.connectAsync(AsyncSSLConnection.java:56) ~[java.net.http:?]
@@ -589,6 +678,100 @@ Caused by: java.nio.channels.UnresolvedAddressException
 [25dez.2024 01:42:18.706] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/F:/github/mine-server/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23211!/assets/.mcassetsroot' uses unexpected schema
 [25dez.2024 01:42:18.707] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/F:/github/mine-server/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23211!/data/.mcassetsroot' uses unexpected schema
 [25dez.2024 01:42:26.774] [Worker-Main-3/ERROR] [net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener/]: Couldn't parse data file nova_structures:chests/water_supply from nova_structures:loot_tables/chests/water_supply.json
+=======
+	at jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1041) ~[java.net.http:?]
+	at jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:227) ~[java.net.http:?]
+	at jdk.internal.net.http.AsyncSSLConnection.connectAsync(AsyncSSLConnection.java:56) ~[java.net.http:?]
+	at jdk.internal.net.http.Http2Connection.createAsync(Http2Connection.java:527) ~[java.net.http:?]
+	at jdk.internal.net.http.Http2ClientImpl.getConnectionFor(Http2ClientImpl.java:138) ~[java.net.http:?]
+	at jdk.internal.net.http.ExchangeImpl.get(ExchangeImpl.java:94) ~[java.net.http:?]
+	at jdk.internal.net.http.Exchange.establishExchange(Exchange.java:391) ~[java.net.http:?]
+	at jdk.internal.net.http.Exchange.responseAsyncImpl0(Exchange.java:584) ~[java.net.http:?]
+	at jdk.internal.net.http.Exchange.responseAsyncImpl(Exchange.java:428) ~[java.net.http:?]
+	at jdk.internal.net.http.Exchange.responseAsync(Exchange.java:420) ~[java.net.http:?]
+	at jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:413) ~[java.net.http:?]
+	at jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$7(MultiExchange.java:454) ~[java.net.http:?]
+	at java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniHandleStage(CompletableFuture.java:950) ~[?:?]
+	at java.util.concurrent.CompletableFuture.handle(CompletableFuture.java:2372) ~[?:?]
+	at jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:444) ~[java.net.http:?]
+	at jdk.internal.net.http.MultiExchange.lambda$responseAsync0$2(MultiExchange.java:346) ~[java.net.http:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773) ~[?:?]
+	at jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:177) ~[java.net.http:?]
+	at java.util.concurrent.CompletableFuture.completeAsync(CompletableFuture.java:2719) ~[?:?]
+	at jdk.internal.net.http.MultiExchange.responseAsync(MultiExchange.java:299) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientImpl.sendAsync(HttpClientImpl.java:1049) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:930) ~[java.net.http:?]
+	... 5 more
+Caused by: java.nio.channels.UnresolvedAddressException
+	at sun.nio.ch.Net.checkAddress(Net.java:137) ~[?:?]
+	at sun.nio.ch.Net.checkAddress(Net.java:145) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.checkRemote(SocketChannelImpl.java:842) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:865) ~[?:?]
+	at jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:210) ~[java.net.http:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:571) ~[?:?]
+	at jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:212) ~[java.net.http:?]
+	at jdk.internal.net.http.AsyncSSLConnection.connectAsync(AsyncSSLConnection.java:56) ~[java.net.http:?]
+	at jdk.internal.net.http.Http2Connection.createAsync(Http2Connection.java:527) ~[java.net.http:?]
+	at jdk.internal.net.http.Http2ClientImpl.getConnectionFor(Http2ClientImpl.java:138) ~[java.net.http:?]
+	at jdk.internal.net.http.ExchangeImpl.get(ExchangeImpl.java:94) ~[java.net.http:?]
+	at jdk.internal.net.http.Exchange.establishExchange(Exchange.java:391) ~[java.net.http:?]
+	at jdk.internal.net.http.Exchange.responseAsyncImpl0(Exchange.java:584) ~[java.net.http:?]
+	at jdk.internal.net.http.Exchange.responseAsyncImpl(Exchange.java:428) ~[java.net.http:?]
+	at jdk.internal.net.http.Exchange.responseAsync(Exchange.java:420) ~[java.net.http:?]
+	at jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:413) ~[java.net.http:?]
+	at jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$7(MultiExchange.java:454) ~[java.net.http:?]
+	at java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniHandleStage(CompletableFuture.java:950) ~[?:?]
+	at java.util.concurrent.CompletableFuture.handle(CompletableFuture.java:2372) ~[?:?]
+	at jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:444) ~[java.net.http:?]
+	at jdk.internal.net.http.MultiExchange.lambda$responseAsync0$2(MultiExchange.java:346) ~[java.net.http:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773) ~[?:?]
+	at jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:177) ~[java.net.http:?]
+	at java.util.concurrent.CompletableFuture.completeAsync(CompletableFuture.java:2719) ~[?:?]
+	at jdk.internal.net.http.MultiExchange.responseAsync(MultiExchange.java:299) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientImpl.sendAsync(HttpClientImpl.java:1049) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:930) ~[java.net.http:?]
+	... 5 more
+[25Dec2024 02:10:51.928] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[25Dec2024 02:10:52.077] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 43.4.0 Target: null
+[25Dec2024 02:10:52.079] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Starting version check at https://gh.tamaized.com/TeamTwilight/twilightforest/update.json
+[25Dec2024 02:10:52.334] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Found status: BETA Current: 4.2.1518 Target: null
+[25Dec2024 02:10:52.339] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Starting version check at https://update.maxhenkel.de/forge/corpse
+[25Dec2024 02:10:53.703] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Found status: AHEAD Current: 1.19.2-1.0.17 Target: null
+[25Dec2024 02:10:53.704] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cumulus_menus] Starting version check at https://github.com/The-Aether-Team/Cumulus/raw/1.19.2-develop/update.json
+[25Dec2024 02:10:53.755] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cumulus_menus] Found status: UP_TO_DATE Current: 1.19.2-1.0.0-forge Target: null
+[25Dec2024 02:10:53.757] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [appmek] Starting version check at https://api.modrinth.com/updates/applied-mekanistics/forge_updates.json
+[25Dec2024 02:10:53.836] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [appmek] Found status: UP_TO_DATE Current: 1.3.5 Target: null
+[25Dec2024 02:10:54.435] [Cobblemon Showdown/INFO] [com.cobblemon.mod.common.Cobblemon/]: Showdown has been started!
+[25Dec2024 02:10:54.435] [modloading-worker-0/INFO] [com.cobblemon.mod.common.Cobblemon/]: All registries loaded.
+[25Dec2024 02:10:54.453] [modloading-worker-0/INFO] [com.cobblemon.mod.common.Cobblemon/]: Note: Cobblemon data registries are only loaded once per server instance as Pokémon species are not safe to reload.
+[25Dec2024 02:10:54.453] [modloading-worker-0/INFO] [com.cobblemon.mod.common.Cobblemon/]: Registered the cobblemon:species_features registry
+[25Dec2024 02:10:54.455] [modloading-worker-0/INFO] [com.cobblemon.mod.common.Cobblemon/]: Registered the cobblemon:global_species_features registry
+[25Dec2024 02:10:54.456] [modloading-worker-0/INFO] [com.cobblemon.mod.common.Cobblemon/]: Registered the cobblemon:species_feature_assignments registry
+[25Dec2024 02:10:54.457] [modloading-worker-0/INFO] [com.cobblemon.mod.common.Cobblemon/]: Registered the cobblemon:moves registry
+[25Dec2024 02:10:54.459] [modloading-worker-0/INFO] [com.cobblemon.mod.common.Cobblemon/]: Registered the cobblemon:abilities registry
+[25Dec2024 02:10:54.459] [modloading-worker-0/INFO] [com.cobblemon.mod.common.Cobblemon/]: Registered the cobblemon:species registry
+[25Dec2024 02:10:54.459] [modloading-worker-0/INFO] [com.cobblemon.mod.common.Cobblemon/]: Registered the cobblemon:species_additions registry
+[25Dec2024 02:10:54.459] [modloading-worker-0/INFO] [com.cobblemon.mod.common.Cobblemon/]: Registered the cobblemon:pokeballs registry
+[25Dec2024 02:10:54.461] [modloading-worker-0/INFO] [com.cobblemon.mod.common.Cobblemon/]: Registered the cobblemon:properties_tab_completion registry
+[25Dec2024 02:10:54.461] [modloading-worker-0/INFO] [com.cobblemon.mod.common.Cobblemon/]: Registered the cobblemon:spawn_detail_presets registry
+[25Dec2024 02:10:54.468] [modloading-worker-0/INFO] [com.cobblemon.mod.common.Cobblemon/]: Registered the cobblemon:spawn_pool_world registry
+[25Dec2024 02:10:54.987] [modloading-worker-0/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 1/2 (Server)
+[25Dec2024 02:10:54.988] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[25Dec2024 02:10:55.012] [main/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 2/2 (Server)
+[25Dec2024 02:10:55.012] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[25Dec2024 02:10:55.154] [modloading-worker-0/INFO] [hexcasting/]: Loaded 153 regular patterns, 14 per-world patterns, and 2 special handlers.
+[25Dec2024 02:10:55.277] [PAUCAL Contributors Loading Thread/INFO] [paucal/]: Successfully loaded 41 contributors
+[25Dec2024 02:10:55.416] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[25Dec2024 02:10:55.902] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/home/rootuser/minedevs/mine-server/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23211!/assets/.mcassetsroot' uses unexpected schema
+[25Dec2024 02:10:55.903] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/home/rootuser/minedevs/mine-server/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23211!/data/.mcassetsroot' uses unexpected schema
+[25Dec2024 02:11:00.239] [Worker-Main-1/ERROR] [net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener/]: Couldn't parse data file nova_structures:chests/water_supply from nova_structures:loot_tables/chests/water_supply.json
+>>>>>>> b7edcb7d7b02e2f3bf6f61cd0d970f87479bbb04
 com.google.gson.JsonParseException: com.google.gson.stream.MalformedJsonException: Unterminated array at line 17 column 10 path $.pools[0].entries[1]
 	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:512) ~[server-1.19.2-20220805.130853-srg.jar%23211!/:?]
 	at net.minecraft.util.GsonHelper.m_13776_(GsonHelper.java:549) ~[server-1.19.2-20220805.130853-srg.jar%23211!/:?]
@@ -597,11 +780,19 @@ com.google.gson.JsonParseException: com.google.gson.stream.MalformedJsonExceptio
 	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10786_(SimplePreparableReloadListener.java:11) ~[server-1.19.2-20220805.130853-srg.jar%23211!/:?]
 	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
 	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+<<<<<<< HEAD
 	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
 	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+=======
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
+>>>>>>> b7edcb7d7b02e2f3bf6f61cd0d970f87479bbb04
 Caused by: com.google.gson.stream.MalformedJsonException: Unterminated array at line 17 column 10 path $.pools[0].entries[1]
 	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1562) ~[gson-2.8.9.jar%2370!/:?]
 	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:475) ~[gson-2.8.9.jar%2370!/:?]
@@ -614,6 +805,7 @@ Caused by: com.google.gson.stream.MalformedJsonException: Unterminated array at 
 	at com.google.gson.internal.bind.TypeAdapters$33$1.read(TypeAdapters.java:866) ~[gson-2.8.9.jar%2370!/:?]
 	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:510) ~[server-1.19.2-20220805.130853-srg.jar%23211!/:?]
 	... 11 more
+<<<<<<< HEAD
 [25dez.2024 01:42:27.713] [main/INFO] [Cucumber Library/]: Cucumber registered 0 recipes in 0 ms
 [25dez.2024 01:42:27.809] [main/WARN] [Mantle/]: Using deprecated key 'name' for fluid ingredient, use 'fluid' instead. This will be removed in the future
 [25dez.2024 01:42:27.830] [main/WARN] [Mantle/]: Using deprecated key 'name' for fluid ingredient, use 'fluid' instead. This will be removed in the future
@@ -2443,3 +2635,146 @@ Caused by: com.google.gson.stream.MalformedJsonException: Unterminated array at 
 [25dez.2024 01:44:43.857] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
 [25dez.2024 01:44:44.540] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Stopping IO worker...
 [25dez.2024 01:44:44.546] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Stopped IO worker!
+=======
+[25Dec2024 02:11:01.129] [main/INFO] [Cucumber Library/]: Cucumber registered 0 recipes in 0 ms
+[25Dec2024 02:11:01.264] [main/WARN] [Mantle/]: Using deprecated key 'name' for fluid ingredient, use 'fluid' instead. This will be removed in the future
+[25Dec2024 02:11:01.288] [main/WARN] [Mantle/]: Using deprecated key 'name' for fluid ingredient, use 'fluid' instead. This will be removed in the future
+[25Dec2024 02:11:01.325] [main/WARN] [Mantle/]: Using deprecated key 'name' for fluid ingredient, use 'fluid' instead. This will be removed in the future
+[25Dec2024 02:11:01.335] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create:crushing/amethyst_block as it's serializer returned null
+[25Dec2024 02:11:01.360] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe hexcasting:compat/farmersdelight/cutting/akashic_log as it's serializer returned null
+[25Dec2024 02:11:01.361] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/hunger as it's serializer returned null
+[25Dec2024 02:11:01.369] [main/WARN] [Mantle/]: Using deprecated key 'name' for fluid ingredient, use 'fluid' instead. This will be removed in the future
+[25Dec2024 02:11:01.370] [main/WARN] [Mantle/]: Using deprecated key 'name' for fluid ingredient, use 'fluid' instead. This will be removed in the future
+[25Dec2024 02:11:01.371] [main/WARN] [Mantle/]: Using deprecated key 'name' for fluid ingredient, use 'fluid' instead. This will be removed in the future
+[25Dec2024 02:11:01.385] [main/WARN] [Mantle/]: Using deprecated key 'name' for fluid ingredient, use 'fluid' instead. This will be removed in the future
+[25Dec2024 02:11:01.388] [main/WARN] [Mantle/]: Using deprecated key 'name' for fluid ingredient, use 'fluid' instead. This will be removed in the future
+[25Dec2024 02:11:01.391] [main/WARN] [Mantle/]: Using deprecated key 'name' for fluid ingredient, use 'fluid' instead. This will be removed in the future
+[25Dec2024 02:11:01.443] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create:crushing/amethyst_cluster as it's serializer returned null
+[25Dec2024 02:11:01.464] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe hexcasting:compat/farmersdelight/cutting/akashic_wood as it's serializer returned null
+[25Dec2024 02:11:01.469] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/poison as it's serializer returned null
+[25Dec2024 02:11:01.518] [main/WARN] [Mantle/]: Using deprecated key 'name' for fluid ingredient, use 'fluid' instead. This will be removed in the future
+[25Dec2024 02:11:01.522] [main/WARN] [Mantle/]: Using deprecated key 'name' for fluid ingredient, use 'fluid' instead. This will be removed in the future
+[25Dec2024 02:11:01.525] [main/WARN] [Mantle/]: Using deprecated key 'name' for fluid ingredient, use 'fluid' instead. This will be removed in the future
+[25Dec2024 02:11:01.533] [main/WARN] [Mantle/]: Using deprecated key 'name' for fluid ingredient, use 'fluid' instead. This will be removed in the future
+[25Dec2024 02:11:01.539] [main/WARN] [Mantle/]: Using deprecated key 'name' for fluid ingredient, use 'fluid' instead. This will be removed in the future
+[25Dec2024 02:11:01.588] [main/WARN] [Mantle/]: Using deprecated key 'name' for fluid ingredient, use 'fluid' instead. This will be removed in the future
+[25Dec2024 02:11:01.592] [main/WARN] [Mantle/]: Using deprecated key 'name' for fluid ingredient, use 'fluid' instead. This will be removed in the future
+[25Dec2024 02:11:01.596] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/regeneration as it's serializer returned null
+[25Dec2024 02:11:01.605] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/fire_resistance as it's serializer returned null
+[25Dec2024 02:11:01.611] [main/WARN] [Mantle/]: Using deprecated key 'name' for fluid ingredient, use 'fluid' instead. This will be removed in the future
+[25Dec2024 02:11:01.624] [main/WARN] [Mantle/]: Using deprecated key 'name' for fluid ingredient, use 'fluid' instead. This will be removed in the future
+[25Dec2024 02:11:01.628] [main/WARN] [Mantle/]: Using deprecated key 'name' for fluid ingredient, use 'fluid' instead. This will be removed in the future
+[25Dec2024 02:11:01.637] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe hexcasting:compat/create/crushing/amethyst_shard as it's serializer returned null
+[25Dec2024 02:11:01.640] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/frosted as it's serializer returned null
+[25Dec2024 02:11:01.656] [main/WARN] [Mantle/]: Using deprecated key 'name' for fluid ingredient, use 'fluid' instead. This will be removed in the future
+[25Dec2024 02:11:01.658] [main/WARN] [Mantle/]: Using deprecated key 'name' for fluid ingredient, use 'fluid' instead. This will be removed in the future
+[25Dec2024 02:11:01.659] [main/WARN] [Mantle/]: Using deprecated key 'name' for fluid ingredient, use 'fluid' instead. This will be removed in the future
+[25Dec2024 02:11:01.665] [main/WARN] [Mantle/]: Using deprecated key 'name' for fluid ingredient, use 'fluid' instead. This will be removed in the future
+[25Dec2024 02:11:01.668] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/blindness as it's serializer returned null
+[25Dec2024 02:11:01.669] [main/WARN] [Mantle/]: Using deprecated key 'name' for fluid ingredient, use 'fluid' instead. This will be removed in the future
+[25Dec2024 02:11:01.673] [main/WARN] [Mantle/]: Using deprecated key 'name' for fluid ingredient, use 'fluid' instead. This will be removed in the future
+[25Dec2024 02:11:01.682] [main/WARN] [Mantle/]: Using deprecated key 'name' for fluid ingredient, use 'fluid' instead. This will be removed in the future
+[25Dec2024 02:11:01.708] [main/WARN] [Mantle/]: Using deprecated key 'name' for fluid ingredient, use 'fluid' instead. This will be removed in the future
+[25Dec2024 02:11:01.713] [main/WARN] [Mantle/]: Using deprecated key 'name' for fluid ingredient, use 'fluid' instead. This will be removed in the future
+[25Dec2024 02:11:01.717] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe hexcasting:compat/farmersdelight/cutting/akashic_trapdoor as it's serializer returned null
+[25Dec2024 02:11:01.718] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/resistance as it's serializer returned null
+[25Dec2024 02:11:01.720] [main/WARN] [Mantle/]: Using deprecated key 'name' for fluid ingredient, use 'fluid' instead. This will be removed in the future
+[25Dec2024 02:11:01.723] [main/WARN] [Mantle/]: Using deprecated key 'name' for fluid ingredient, use 'fluid' instead. This will be removed in the future
+[25Dec2024 02:11:01.723] [main/WARN] [Mantle/]: Using deprecated key 'name' for fluid ingredient, use 'fluid' instead. This will be removed in the future
+[25Dec2024 02:11:01.725] [main/WARN] [Mantle/]: Using deprecated key 'name' for fluid ingredient, use 'fluid' instead. This will be removed in the future
+[25Dec2024 02:11:01.726] [main/WARN] [Mantle/]: Using deprecated key 'name' for fluid ingredient, use 'fluid' instead. This will be removed in the future
+[25Dec2024 02:11:01.730] [main/WARN] [Mantle/]: Using deprecated key 'name' for fluid ingredient, use 'fluid' instead. This will be removed in the future
+[25Dec2024 02:11:01.733] [main/WARN] [Mantle/]: Using deprecated key 'name' for fluid ingredient, use 'fluid' instead. This will be removed in the future
+[25Dec2024 02:11:01.738] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/slowness as it's serializer returned null
+[25Dec2024 02:11:01.738] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe hexcasting:compat/farmersdelight/cutting/akashic_door as it's serializer returned null
+[25Dec2024 02:11:01.744] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 73 recipes
+[25Dec2024 02:11:02.371] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement cobblemon:recipes/held/never_melt_ice_using_stone: Unknown item id 'cobblemon:never_melt_ice_using_stone'
+[25Dec2024 02:11:02.458] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3473 advancements
+[25Dec2024 02:11:02.486] [main/INFO] [twilightforest/]: Loaded 9 Stalactite configs!
+[25Dec2024 02:11:02.539] [main/INFO] [slimeknights.tconstruct.library.modifiers.ModifierManager/]: Loaded 118 dynamic modifiers and 0 modifier redirects in 52.49111 ms
+[25Dec2024 02:11:02.554] [main/INFO] [slimeknights.tconstruct.library.modifiers.ModifierManager/]: Loaded 38 modifier tags for 137 modifiers in 14.522808 ms
+[25Dec2024 02:11:02.554] [main/INFO] [slimeknights.tconstruct.library.modifiers.ModifierManager/]: Loaded 50 enchantment to modifier mappings in 0.707315 ms
+[25Dec2024 02:11:02.558] [main/INFO] [tconstruct/]: Loaded 49 spilling fluids in 2.660556 ms
+[25Dec2024 02:11:02.560] [main/INFO] [slimeknights.mantle.fluid.transfer.FluidContainerTransferManager/]: Loaded 24 dynamic modifiers in 1.936841 ms
+[25Dec2024 02:11:05.880] [main/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loaded 917 moves
+[25Dec2024 02:11:05.954] [main/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loaded 302 abilities
+[25Dec2024 02:11:06.263] [main/INFO] [com.cobblemon.mod.common.Cobblemon/]: Finished additions
+[25Dec2024 02:11:07.188] [main/INFO] [com.cobblemon.mod.common.Cobblemon/]: Imported 97 held item IDs from showdown
+[25Dec2024 02:11:07.189] [main/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loaded 1010 Pokémon species
+[25Dec2024 02:11:07.191] [main/INFO] [com.cobblemon.mod.common.Cobblemon/]: Starting dummy Showdown battle to force it to pre-load data.
+[25Dec2024 02:11:07.656] [main/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loaded 14 spawn detail presets.
+[25Dec2024 02:11:07.809] [main/INFO] [dan200.computercraft.shared.UpgradeManager/]: Loaded 9 turtle upgrades
+[25Dec2024 02:11:07.810] [main/INFO] [dan200.computercraft.shared.UpgradeManager/]: Loaded 3 pocket computer upgrades
+[25Dec2024 02:11:07.815] [main/INFO] [slimeknights.tconstruct.library.materials.definition.MaterialManager/]: Loaded 57 materials in 4.126087 ms
+[25Dec2024 02:11:07.821] [main/INFO] [slimeknights.tconstruct.library.materials.definition.MaterialManager/]: Loaded 1 material tags for 19 materials in 6.400036 ms
+[25Dec2024 02:11:07.834] [main/INFO] [slimeknights.tconstruct.library.materials.stats.MaterialStatsManager/]: 407 stats loaded for 65 materials in 12.145657 ms
+[25Dec2024 02:11:07.848] [main/INFO] [slimeknights.tconstruct.library.materials.traits.MaterialTraitsManager/]: 190 traits loaded for 65 materials in 14.108999 ms
+[25Dec2024 02:11:07.863] [main/INFO] [slimeknights.tconstruct.library.tools.definition.ToolDefinitionLoader/]: Loaded 34 tool definitions in 14.340905 ms
+[25Dec2024 02:11:07.868] [main/INFO] [slimeknights.tconstruct.library.tools.layout.StationSlotLayoutLoader/]: Loaded 19 station slot layouts in 5.422715 ms
+[25Dec2024 02:11:07.955] [main/INFO] [Cucumber Library/]: Loaded cucumber-tags.json in 1 ms
+[25Dec2024 02:11:07.956] [main/INFO] [Mystical Agriculture/]: Recipe ingredient caching done in 0 ms
+[25Dec2024 02:11:36.147] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.19.2
+[25Dec2024 02:11:36.148] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[25Dec2024 02:11:36.148] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[25Dec2024 02:11:36.148] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[25Dec2024 02:11:36.309] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[25Dec2024 02:11:36.337] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[25Dec2024 02:11:36.543] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Initializing Open Parties and Claims for the server...
+[25Dec2024 02:11:36.557] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loading server info!
+[25Dec2024 02:11:36.625] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loading player configs...
+[25Dec2024 02:11:36.655] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loaded player configs!
+[25Dec2024 02:11:36.655] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loading parties...
+[25Dec2024 02:11:36.656] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loaded parties!
+[25Dec2024 02:11:36.657] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Fixing party inconsistencies...
+[25Dec2024 02:11:36.727] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Registered party system for OPAC: default
+[25Dec2024 02:11:36.729] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Registered permission system for OPAC: permission_api
+[25Dec2024 02:11:36.738] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[25Dec2024 02:11:37.121] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[25Dec2024 02:11:40.042] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Dec2024 02:11:40.044] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Dec2024 02:11:40.044] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Dec2024 02:11:40.044] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Dec2024 02:11:40.045] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Dec2024 02:11:40.045] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Dec2024 02:11:40.185] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Dec2024 02:11:40.993] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 3871 ms
+[25Dec2024 02:11:40.994] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (4.555s)! For help, type "help"
+[25Dec2024 02:11:41.056] [Server thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Starting Forge permission node registry
+[25Dec2024 02:11:41.060] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[25Dec2024 02:11:41.063] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loading claims...
+[25Dec2024 02:11:41.069] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loaded claims in 6ms
+[25Dec2024 02:11:41.069] [Server thread/WARN] [xaero.pac.OpenPartiesAndClaims/]: The configured permission system "ftb_ranks" isn't registered!
+[25Dec2024 02:11:41.072] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Configured OPAC to use the following permission system: permission_api
+[25Dec2024 02:11:41.072] [Server thread/WARN] [xaero.pac.OpenPartiesAndClaims/]: The configured primary party system "ftb_teams" isn't registered!
+[25Dec2024 02:11:41.073] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Configured OPAC to use the following party system as primary: default
+[25Dec2024 02:11:41.126] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
+[25Dec2024 02:11:41.135] [Server thread/WARN] [ModernFix/]: Dedicated server took 79.42 seconds to load
+[25Dec2024 02:12:56.246] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player lyezinho is e0a0aa46-316a-4641-a62b-fefd7eb8801f
+[25Dec2024 02:12:59.144] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class tschipp.carryon.common.carry.CarryOnDataManager
+[25Dec2024 02:12:59.238] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@26cbadf6
+[25Dec2024 02:12:59.271] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: lyezinho[/161.230.148.46:55321] logged in with entity id 291 at (745.2567275810187, 64.0, 456.7287448174838)
+[25Dec2024 02:12:59.549] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: lyezinho joined the game
+[25Dec2024 02:12:59.886] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Updating all forceload tickets for e0a0aa46-316a-4641-a62b-fefd7eb8801f
+[25Dec2024 02:13:07.153] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: lyezinho lost connection: Disconnected
+[25Dec2024 02:13:07.154] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: lyezinho left the game
+[25Dec2024 02:13:07.157] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Updating all forceload tickets for e0a0aa46-316a-4641-a62b-fefd7eb8801f
+[25Dec2024 02:13:12.552] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[25Dec2024 02:13:12.589] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[25Dec2024 02:13:12.591] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[25Dec2024 02:13:12.592] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[25Dec2024 02:13:13.427] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[25Dec2024 02:13:14.569] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/twilightforest:twilight_forest
+[25Dec2024 02:13:14.574] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[25Dec2024 02:13:14.577] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[25Dec2024 02:13:14.580] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/aether:the_aether
+[25Dec2024 02:13:14.581] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ae2:spatial_storage
+[25Dec2024 02:13:14.627] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[25Dec2024 02:13:14.628] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (twilight_forest): All chunks are saved
+[25Dec2024 02:13:14.630] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[25Dec2024 02:13:14.630] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[25Dec2024 02:13:14.632] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (the_aether): All chunks are saved
+[25Dec2024 02:13:14.632] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (spatial_storage): All chunks are saved
+[25Dec2024 02:13:14.632] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[25Dec2024 02:13:14.689] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Stopping IO worker...
+[25Dec2024 02:13:14.701] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Stopped IO worker!
+>>>>>>> b7edcb7d7b02e2f3bf6f61cd0d970f87479bbb04

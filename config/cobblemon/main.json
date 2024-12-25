@@ -3,7 +3,10 @@
   "maxPokemonLevel": 100,
   "maxPokemonFriendship": 255,
   "announceDropItems": true,
+<<<<<<< HEAD
   "defaultDropItemMethod": "ON_ENTITY",
+=======
+>>>>>>> b7edcb7d7b02e2f3bf6f61cd0d970f87479bbb04
   "ambientPokemonCryTicks": 360,
   "defaultBoxCount": 30,
   "pokemonSaveIntervalSeconds": 30,

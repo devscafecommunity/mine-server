@@ -1,1 +1,12 @@
+<<<<<<< HEAD
 []
+=======
+[
+  {
+    "uuid": "e0a0aa46-316a-4641-a62b-fefd7eb8801f",
+    "name": "lyezinho",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
+>>>>>>> b7edcb7d7b02e2f3bf6f61cd0d970f87479bbb04
