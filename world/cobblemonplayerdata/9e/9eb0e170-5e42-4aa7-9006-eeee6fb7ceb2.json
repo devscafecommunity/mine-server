@@ -1,0 +1,22 @@
+{
+  "uuid": "9eb0e170-5e42-4aa7-9006-eeee6fb7ceb2",
+  "starterPrompted": true,
+  "starterLocked": false,
+  "starterSelected": true,
+  "starterUUID": "2b05f817-64e7-4730-8c58-eacb2320acc0",
+  "extraData": {},
+  "advancementData": {
+    "totalCaptureCount": 3,
+    "totalEggsHatched": 0,
+    "totalEvolvedCount": 0,
+    "totalBattleVictoryCount": 0,
+    "totalShinyCaptureCount": 0,
+    "totalTypeCaptureCounts": {
+      "poison": 2,
+      "flying": 1,
+      "ghost": 1,
+      "rock": 1,
+      "ground": 1
+    }
+  }
+}
