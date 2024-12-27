@@ -6,11 +6,14 @@
   "starterUUID": "6931cfb7-204c-434b-a3b2-72d63f8aac37",
   "extraData": {},
   "advancementData": {
-    "totalCaptureCount": 0,
+    "totalCaptureCount": 1,
     "totalEggsHatched": 0,
     "totalEvolvedCount": 0,
     "totalBattleVictoryCount": 0,
     "totalShinyCaptureCount": 0,
-    "totalTypeCaptureCounts": {}
+    "totalTypeCaptureCounts": {
+      "dark": 1,
+      "normal": 1
+    }
   }
 }

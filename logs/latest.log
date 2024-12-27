@@ -1,136 +1,77 @@
-[26Dec2024 00:00:00.001] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Attempting to create an automatic backup
-[26Dec2024 00:00:00.006] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Found world folder at /home/rootuser/minedevs/mine-server/./world/.
-[26Dec2024 00:00:00.032] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Last backup size: 51.7MB Current world size: 65.2MB Current Available space: 21.8GB ExpectedSize 54.5MB
-[26Dec2024 00:00:00.033] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world minecraft:overworld save state to true
-[26Dec2024 00:00:00.033] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world twilightforest:twilight_forest save state to true
-[26Dec2024 00:00:00.033] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world minecraft:the_nether save state to true
-[26Dec2024 00:00:00.033] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world minecraft:the_end save state to true
-[26Dec2024 00:00:00.033] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world aether:the_aether save state to true
-[26Dec2024 00:00:00.033] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world ae2:spatial_storage save state to true
-[26Dec2024 00:00:00.039] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Writing to file /home/rootuser/minedevs/mine-server/backups/backups.json
-[26Dec2024 00:00:00.041] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Waiting for world save to complete.
-[26Dec2024 00:00:00.152] [FTB Backups backup thread 0/INFO] [net.creeperhost.levelio.loader.SaveInfo/]: Detected MC Version 1.19.2, Data version 3120
-[26Dec2024 00:00:00.153] [FTB Backups backup thread 0/INFO] [net.creeperhost.levelio.loader.SaveInfo/]: Save Name: world
-[26Dec2024 00:00:00.159] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder ae2:spatial_storage
-[26Dec2024 00:00:00.159] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder aether:the_aether
-[26Dec2024 00:00:00.159] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder twilightforest:twilight_forest
-[26Dec2024 00:00:00.159] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.data.Level/]: Did not find a region folder for level: /home/rootuser/minedevs/mine-server/./world/./DIM-1
-[26Dec2024 00:00:00.160] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.data.Level/]: Did not find a region folder for level: /home/rootuser/minedevs/mine-server/./world/./DIM1
-[26Dec2024 00:00:03.273] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Backup preview created, Scan took 169ms, Capture took 3001ms
-[26Dec2024 00:00:05.444] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world minecraft:overworld save state to false
-[26Dec2024 00:00:05.445] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world twilightforest:twilight_forest save state to false
-[26Dec2024 00:00:05.446] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world minecraft:the_nether save state to false
-[26Dec2024 00:00:05.446] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world minecraft:the_end save state to false
-[26Dec2024 00:00:05.446] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world aether:the_aether save state to false
-[26Dec2024 00:00:05.446] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world ae2:spatial_storage save state to false
-[26Dec2024 00:00:05.677] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Backup size 52.0MB World Size 65.2MB
-[26Dec2024 00:00:05.680] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Writing to file /home/rootuser/minedevs/mine-server/backups/backups.json
-[26Dec2024 00:00:05.681] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: New backup created at /home/rootuser/minedevs/mine-server/backups/2024-12-26_0-0-0.zip size: 52.0MB Took: 0m, 5s, 413ms Sha1: a03dd9e38d81413f453dddee47eb5429c7d72554
-[26Dec2024 00:00:16.007] [FTB Backups scheduled executor 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: More backups than 5 found, Removing oldest backup
-[26Dec2024 00:00:16.015] [FTB Backups scheduled executor 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Removed old backup 2024-12-25_21-0-0.zip
-[26Dec2024 00:00:16.016] [FTB Backups scheduled executor 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: File missing, removing from backups /home/rootuser/minedevs/mine-server/backups/2024-12-25_21-0-0.zip
-[26Dec2024 00:00:16.017] [FTB Backups scheduled executor 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Writing to file /home/rootuser/minedevs/mine-server/backups/backups.json
-[26Dec2024 00:30:00.001] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Attempting to create an automatic backup
-[26Dec2024 00:30:00.002] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Skipping backup, no players have been online since last backup.
-[26Dec2024 01:00:00.001] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Attempting to create an automatic backup
-[26Dec2024 01:00:00.002] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Skipping backup, no players have been online since last backup.
-[26Dec2024 01:14:53.961] [User Authenticator #5/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Tardis_01 is c9393d39-7c0d-4c18-9c2f-3c0462f42e21
-[26Dec2024 01:14:54.164] [Netty Epoll Server IO #3/INFO] [Calio/]: Received acknowledgment for login packet with id 0
-[26Dec2024 01:14:54.189] [Netty Epoll Server IO #3/INFO] [Calio/]: Received acknowledgment for login packet with id 1
-[26Dec2024 01:14:54.238] [Netty Epoll Server IO #3/INFO] [Calio/]: Received acknowledgment for login packet with id 2
-[26Dec2024 01:14:54.289] [Netty Epoll Server IO #3/INFO] [Calio/]: Received acknowledgment for login packet with id 3
-[26Dec2024 01:14:54.340] [Netty Epoll Server IO #3/INFO] [Calio/]: Received acknowledgment for login packet with id 4
-[26Dec2024 01:14:54.387] [Netty Epoll Server IO #3/INFO] [Calio/]: Received acknowledgment for login packet with id 5
-[26Dec2024 01:14:54.438] [Netty Epoll Server IO #3/INFO] [Calio/]: Received acknowledgment for login packet with id 6
-[26Dec2024 01:14:54.490] [Netty Epoll Server IO #3/INFO] [Calio/]: Received acknowledgment for login packet with id 7
-[26Dec2024 01:14:54.538] [Netty Epoll Server IO #3/INFO] [Calio/]: Received acknowledgment for login packet with id 8
-[26Dec2024 01:14:54.588] [Netty Epoll Server IO #3/INFO] [Calio/]: Received acknowledgment for login packet with id 9
-[26Dec2024 01:14:54.639] [Netty Epoll Server IO #3/INFO] [Calio/]: Received acknowledgment for login packet with id 10
-[26Dec2024 01:14:54.690] [Netty Epoll Server IO #3/INFO] [Calio/]: Received acknowledgment for login packet with id 11
-[26Dec2024 01:14:56.202] [Netty Epoll Server IO #3/INFO] [Calio/]: Received acknowledgment for login packet with id 12
-[26Dec2024 01:14:56.208] [Netty Epoll Server IO #3/INFO] [Calio/]: Received acknowledgment for login packet with id 13
-[26Dec2024 01:14:56.216] [Netty Epoll Server IO #3/INFO] [Calio/]: Received acknowledgment for login packet with id 14
-[26Dec2024 01:15:00.078] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@2698cf69
-[26Dec2024 01:15:00.097] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Tardis_01[/187.52.252.37:39117] logged in with entity id 383285 at (-626.7404088797803, 69.0, -688.8049675973434)
-[26Dec2024 01:15:00.200] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Tardis_01 joined the game
-[26Dec2024 01:15:00.285] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Thank you for playing with Arthy's RPG Armory. You may be playing on an outdated mod so be sure to check for updates regularly on Curseforge and Modrinth [This message can be disabled via gamerule] .
-[26Dec2024 01:15:00.290] [Server thread/INFO] [Jade/]: Syncing config to Tardis_01 (c9393d39-7c0d-4c18-9c2f-3c0462f42e21)
-[26Dec2024 01:17:48.012] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity gothic:molerat but it was marked as removed already
-[26Dec2024 01:18:05.154] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity gothic:scavenger but it was marked as removed already
-[26Dec2024 01:19:12.952] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity gothic:molerat but it was marked as removed already
-[26Dec2024 01:22:28.051] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Tardis_01 lost connection: Disconnected
-[26Dec2024 01:22:28.051] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Tardis_01 left the game
-[26Dec2024 01:30:00.001] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Attempting to create an automatic backup
-[26Dec2024 01:30:00.002] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Found world folder at /home/rootuser/minedevs/mine-server/./world/.
-[26Dec2024 01:30:00.064] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Last backup size: 52.0MB Current world size: 65.3MB Current Available space: 21.8GB ExpectedSize 54.6MB
-[26Dec2024 01:30:00.066] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world minecraft:overworld save state to true
-[26Dec2024 01:30:00.067] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world twilightforest:twilight_forest save state to true
-[26Dec2024 01:30:00.067] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world minecraft:the_nether save state to true
-[26Dec2024 01:30:00.067] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world minecraft:the_end save state to true
-[26Dec2024 01:30:00.067] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world aether:the_aether save state to true
-[26Dec2024 01:30:00.067] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world ae2:spatial_storage save state to true
-[26Dec2024 01:30:00.069] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Writing to file /home/rootuser/minedevs/mine-server/backups/backups.json
-[26Dec2024 01:30:00.076] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Waiting for world save to complete.
-[26Dec2024 01:30:00.242] [FTB Backups backup thread 0/INFO] [net.creeperhost.levelio.loader.SaveInfo/]: Detected MC Version 1.19.2, Data version 3120
-[26Dec2024 01:30:00.242] [FTB Backups backup thread 0/INFO] [net.creeperhost.levelio.loader.SaveInfo/]: Save Name: world
-[26Dec2024 01:30:00.251] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder ae2:spatial_storage
-[26Dec2024 01:30:00.252] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder aether:the_aether
-[26Dec2024 01:30:00.252] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.loader.LevelLoader/]: Found possible mod dimension with no region folder twilightforest:twilight_forest
-[26Dec2024 01:30:00.252] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.data.Level/]: Did not find a region folder for level: /home/rootuser/minedevs/mine-server/./world/./DIM-1
-[26Dec2024 01:30:00.252] [FTB Backups backup thread 0/WARN] [net.creeperhost.levelio.data.Level/]: Did not find a region folder for level: /home/rootuser/minedevs/mine-server/./world/./DIM1
-[26Dec2024 01:30:04.849] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Backup preview created, Scan took 236ms, Capture took 4448ms
-[26Dec2024 01:30:06.980] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world minecraft:overworld save state to false
-[26Dec2024 01:30:06.980] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world twilightforest:twilight_forest save state to false
-[26Dec2024 01:30:06.980] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world minecraft:the_nether save state to false
-[26Dec2024 01:30:06.980] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world minecraft:the_end save state to false
-[26Dec2024 01:30:06.980] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world aether:the_aether save state to false
-[26Dec2024 01:30:06.980] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world ae2:spatial_storage save state to false
-[26Dec2024 01:30:07.206] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Backup size 52.0MB World Size 65.3MB
-[26Dec2024 01:30:07.209] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Writing to file /home/rootuser/minedevs/mine-server/backups/backups.json
-[26Dec2024 01:30:07.212] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: New backup created at /home/rootuser/minedevs/mine-server/backups/2024-12-26_1-30-0.zip size: 52.0MB Took: 0m, 6s, 913ms Sha1: 3884847bcb7e0ac284a5d211034ad66d9ca52eb7
-[26Dec2024 01:30:16.007] [FTB Backups scheduled executor 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: More backups than 5 found, Removing oldest backup
-[26Dec2024 01:30:16.016] [FTB Backups scheduled executor 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Removed old backup 2024-12-25_21-30-0.zip
-[26Dec2024 01:30:16.016] [FTB Backups scheduled executor 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: File missing, removing from backups /home/rootuser/minedevs/mine-server/backups/2024-12-25_21-30-0.zip
-[26Dec2024 01:30:16.018] [FTB Backups scheduled executor 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Writing to file /home/rootuser/minedevs/mine-server/backups/backups.json
-[26Dec2024 02:00:00.001] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Attempting to create an automatic backup
-[26Dec2024 02:00:00.002] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Skipping backup, no players have been online since last backup.
-[26Dec2024 02:30:00.002] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Attempting to create an automatic backup
-[26Dec2024 02:30:00.002] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Skipping backup, no players have been online since last backup.
-[26Dec2024 03:00:00.001] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Attempting to create an automatic backup
-[26Dec2024 03:00:00.001] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Skipping backup, no players have been online since last backup.
-[26Dec2024 03:30:00.001] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Attempting to create an automatic backup
-[26Dec2024 03:30:00.001] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Skipping backup, no players have been online since last backup.
-[26Dec2024 04:00:00.001] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Attempting to create an automatic backup
-[26Dec2024 04:00:00.002] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Skipping backup, no players have been online since last backup.
-[26Dec2024 04:30:00.001] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Attempting to create an automatic backup
-[26Dec2024 04:30:00.002] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Skipping backup, no players have been online since last backup.
-[26Dec2024 05:00:00.001] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Attempting to create an automatic backup
-[26Dec2024 05:00:00.002] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Skipping backup, no players have been online since last backup.
-[26Dec2024 05:08:58.745] [Netty Epoll Server IO #1/ERROR] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channels [teamlapenlib:main,veinmining:main,mantle:network,guardvillagers:main,calio:channel,sophisticatedbackpacks:channel,nitrogen_internals:main,computercraft:network,tconstruct:network,forge:tier_sorting,realmrpg_skeletons:realmrpg_skeletons,arthys_rpg_arms:arthys_rpg_arms,create_connected:config_common,realmrpg_creep:realmrpg_creep,zerocore:network,mekanism:mekanism,caelus:main,lootr:main_network_channel,sophisticatedstorage:channel,ritchiesprojectilelib:network,hexcasting:main,create:main,createaddition:main,comforts:main,seadwellers:seadwellers,aether:main,carryon:carryonpackets,mekanismgenerators:mekanismgenerators,storagedrawers:main_channel,createbigcannons:network,origins:network,pots_and_mimics:pots_and_mimics,curios:main,w2w2:main,apoli:channel,realmrpg_demons:realmrpg_demons,fluxnetworks:network,sophisticatedcore:channel,realmrpg_wyrms:realmrpg_wyrms,patchouli:main,bigreactors:network,gothic:gothic,origins_classes:channel,vampirism:main,create_connected:main,geckolib3:main,cobblemon:main,twilightforest:channel,waystones:network,createindustry:main] rejected vanilla connections
-[26Dec2024 05:08:58.745] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting VANILLA connection attempt: This server has mods that require Forge to be installed on the client. Contact your server admin for more details.
-[26Dec2024 05:30:00.001] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Attempting to create an automatic backup
-[26Dec2024 05:30:00.002] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Skipping backup, no players have been online since last backup.
-[26Dec2024 06:00:00.003] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Attempting to create an automatic backup
-[26Dec2024 06:00:00.004] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Skipping backup, no players have been online since last backup.
-[26Dec2024 06:30:00.002] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Attempting to create an automatic backup
-[26Dec2024 06:30:00.002] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Skipping backup, no players have been online since last backup.
-[26Dec2024 07:00:00.001] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Attempting to create an automatic backup
-[26Dec2024 07:00:00.001] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Skipping backup, no players have been online since last backup.
-[26Dec2024 07:30:00.001] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Attempting to create an automatic backup
-[26Dec2024 07:30:00.002] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Skipping backup, no players have been online since last backup.
-[26Dec2024 08:00:00.001] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Attempting to create an automatic backup
-[26Dec2024 08:00:00.002] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Skipping backup, no players have been online since last backup.
-[26Dec2024 08:30:00.002] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Attempting to create an automatic backup
-[26Dec2024 08:30:00.002] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Skipping backup, no players have been online since last backup.
-[26Dec2024 09:00:00.002] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Attempting to create an automatic backup
-[26Dec2024 09:00:00.002] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Skipping backup, no players have been online since last backup.
-[26Dec2024 09:30:00.001] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Attempting to create an automatic backup
-[26Dec2024 09:30:00.002] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Skipping backup, no players have been online since last backup.
-[26Dec2024 09:55:53.495] [Netty Epoll Server IO #3/ERROR] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channels [teamlapenlib:main,veinmining:main,mantle:network,guardvillagers:main,calio:channel,sophisticatedbackpacks:channel,nitrogen_internals:main,computercraft:network,tconstruct:network,forge:tier_sorting,realmrpg_skeletons:realmrpg_skeletons,arthys_rpg_arms:arthys_rpg_arms,create_connected:config_common,realmrpg_creep:realmrpg_creep,zerocore:network,mekanism:mekanism,caelus:main,lootr:main_network_channel,sophisticatedstorage:channel,ritchiesprojectilelib:network,hexcasting:main,create:main,createaddition:main,comforts:main,seadwellers:seadwellers,aether:main,carryon:carryonpackets,mekanismgenerators:mekanismgenerators,storagedrawers:main_channel,createbigcannons:network,origins:network,pots_and_mimics:pots_and_mimics,curios:main,w2w2:main,apoli:channel,realmrpg_demons:realmrpg_demons,fluxnetworks:network,sophisticatedcore:channel,realmrpg_wyrms:realmrpg_wyrms,patchouli:main,bigreactors:network,gothic:gothic,origins_classes:channel,vampirism:main,create_connected:main,geckolib3:main,cobblemon:main,twilightforest:channel,waystones:network,createindustry:main] rejected vanilla connections
-[26Dec2024 09:55:53.495] [Netty Epoll Server IO #3/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting VANILLA connection attempt: This server has mods that require Forge to be installed on the client. Contact your server admin for more details.
-[26Dec2024 10:00:00.001] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Attempting to create an automatic backup
-[26Dec2024 10:00:00.002] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Skipping backup, no players have been online since last backup.
-[26Dec2024 10:30:00.002] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Attempting to create an automatic backup
-[26Dec2024 10:30:00.002] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Skipping backup, no players have been online since last backup.
-[26Dec2024 11:00:00.002] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Attempting to create an automatic backup
-[26Dec2024 11:00:00.002] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Skipping backup, no players have been online since last backup.
+[27Dec2024 00:00:00.002] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Attempting to create an automatic backup
+[27Dec2024 00:00:00.007] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Skipping backup, no players have been online since last backup.
+[27Dec2024 00:30:00.001] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Attempting to create an automatic backup
+[27Dec2024 00:30:00.002] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Skipping backup, no players have been online since last backup.
+[27Dec2024 01:00:00.001] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Attempting to create an automatic backup
+[27Dec2024 01:00:00.001] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Skipping backup, no players have been online since last backup.
+[27Dec2024 01:30:00.001] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Attempting to create an automatic backup
+[27Dec2024 01:30:00.002] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Skipping backup, no players have been online since last backup.
+[27Dec2024 02:00:00.002] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Attempting to create an automatic backup
+[27Dec2024 02:00:00.002] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Skipping backup, no players have been online since last backup.
+[27Dec2024 02:30:00.002] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Attempting to create an automatic backup
+[27Dec2024 02:30:00.002] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Skipping backup, no players have been online since last backup.
+[27Dec2024 03:00:00.001] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Attempting to create an automatic backup
+[27Dec2024 03:00:00.001] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Skipping backup, no players have been online since last backup.
+[27Dec2024 03:30:00.002] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Attempting to create an automatic backup
+[27Dec2024 03:30:00.002] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Skipping backup, no players have been online since last backup.
+[27Dec2024 04:00:00.001] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Attempting to create an automatic backup
+[27Dec2024 04:00:00.001] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Skipping backup, no players have been online since last backup.
+[27Dec2024 04:30:00.002] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Attempting to create an automatic backup
+[27Dec2024 04:30:00.002] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Skipping backup, no players have been online since last backup.
+[27Dec2024 05:00:00.002] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Attempting to create an automatic backup
+[27Dec2024 05:00:00.002] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Skipping backup, no players have been online since last backup.
+[27Dec2024 05:14:54.902] [Netty Epoll Server IO #2/ERROR] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channels [teamlapenlib:main,veinmining:main,mantle:network,guardvillagers:main,calio:channel,sophisticatedbackpacks:channel,nitrogen_internals:main,computercraft:network,tconstruct:network,forge:tier_sorting,realmrpg_skeletons:realmrpg_skeletons,arthys_rpg_arms:arthys_rpg_arms,create_connected:config_common,realmrpg_creep:realmrpg_creep,zerocore:network,mekanism:mekanism,caelus:main,lootr:main_network_channel,sophisticatedstorage:channel,ritchiesprojectilelib:network,hexcasting:main,create:main,createaddition:main,comforts:main,seadwellers:seadwellers,aether:main,carryon:carryonpackets,mekanismgenerators:mekanismgenerators,storagedrawers:main_channel,createbigcannons:network,origins:network,pots_and_mimics:pots_and_mimics,curios:main,w2w2:main,apoli:channel,realmrpg_demons:realmrpg_demons,fluxnetworks:network,sophisticatedcore:channel,realmrpg_wyrms:realmrpg_wyrms,patchouli:main,bigreactors:network,gothic:gothic,origins_classes:channel,vampirism:main,create_connected:main,geckolib3:main,cobblemon:main,twilightforest:channel,waystones:network,createindustry:main] rejected vanilla connections
+[27Dec2024 05:14:54.902] [Netty Epoll Server IO #2/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting VANILLA connection attempt: This server has mods that require Forge to be installed on the client. Contact your server admin for more details.
+[27Dec2024 05:30:00.001] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Attempting to create an automatic backup
+[27Dec2024 05:30:00.001] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Skipping backup, no players have been online since last backup.
+[27Dec2024 06:00:00.002] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Attempting to create an automatic backup
+[27Dec2024 06:00:00.002] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Skipping backup, no players have been online since last backup.
+[27Dec2024 06:30:00.002] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Attempting to create an automatic backup
+[27Dec2024 06:30:00.002] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Skipping backup, no players have been online since last backup.
+[27Dec2024 07:00:00.001] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Attempting to create an automatic backup
+[27Dec2024 07:00:00.001] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Skipping backup, no players have been online since last backup.
+[27Dec2024 07:30:00.002] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Attempting to create an automatic backup
+[27Dec2024 07:30:00.002] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Skipping backup, no players have been online since last backup.
+[27Dec2024 08:00:00.002] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Attempting to create an automatic backup
+[27Dec2024 08:00:00.002] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Skipping backup, no players have been online since last backup.
+[27Dec2024 08:30:00.002] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Attempting to create an automatic backup
+[27Dec2024 08:30:00.002] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Skipping backup, no players have been online since last backup.
+[27Dec2024 09:00:00.001] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Attempting to create an automatic backup
+[27Dec2024 09:00:00.001] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Skipping backup, no players have been online since last backup.
+[27Dec2024 09:30:00.002] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Attempting to create an automatic backup
+[27Dec2024 09:30:00.002] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Skipping backup, no players have been online since last backup.
+[27Dec2024 10:00:00.001] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Attempting to create an automatic backup
+[27Dec2024 10:00:00.002] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Skipping backup, no players have been online since last backup.
+[27Dec2024 10:30:00.001] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Attempting to create an automatic backup
+[27Dec2024 10:30:00.001] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Skipping backup, no players have been online since last backup.
+[27Dec2024 11:00:00.001] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Attempting to create an automatic backup
+[27Dec2024 11:00:00.002] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Skipping backup, no players have been online since last backup.
+[27Dec2024 11:30:00.001] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Attempting to create an automatic backup
+[27Dec2024 11:30:00.001] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Skipping backup, no players have been online since last backup.
+[27Dec2024 12:00:00.001] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Attempting to create an automatic backup
+[27Dec2024 12:00:00.001] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Skipping backup, no players have been online since last backup.
+[27Dec2024 12:30:00.001] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Attempting to create an automatic backup
+[27Dec2024 12:30:00.002] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Skipping backup, no players have been online since last backup.
+[27Dec2024 13:00:00.001] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Attempting to create an automatic backup
+[27Dec2024 13:00:00.002] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Skipping backup, no players have been online since last backup.
+[27Dec2024 13:18:49.440] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: There are 0 of a max of 100 players online: 
+[27Dec2024 13:18:55.091] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[27Dec2024 13:18:55.137] [Server thread/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Shutdown Complete
+[27Dec2024 13:18:55.181] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[27Dec2024 13:18:55.182] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[27Dec2024 13:18:55.182] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[27Dec2024 13:18:57.463] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[27Dec2024 13:18:58.487] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/twilightforest:twilight_forest
+[27Dec2024 13:18:58.489] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[27Dec2024 13:18:58.490] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[27Dec2024 13:18:58.490] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/aether:the_aether
+[27Dec2024 13:18:58.491] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ae2:spatial_storage
+[27Dec2024 13:18:58.537] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[27Dec2024 13:18:58.537] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (twilight_forest): All chunks are saved
+[27Dec2024 13:18:58.537] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[27Dec2024 13:18:58.537] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[27Dec2024 13:18:58.537] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (the_aether): All chunks are saved
+[27Dec2024 13:18:58.537] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (spatial_storage): All chunks are saved
+[27Dec2024 13:18:58.537] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[27Dec2024 13:18:58.753] [Server thread/INFO] [FTB Chunks/]: Shutting down map thread
+[27Dec2024 13:18:58.772] [Server thread/INFO] [Calio/]: Removing Dynamic Registries for: net.minecraft.server.dedicated.DedicatedServer@13a482ad
