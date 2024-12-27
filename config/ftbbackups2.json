@@ -12,11 +12,11 @@
 	*/
 	"retention_mode": "MAX_BACKUPS",
 	// Applies to retention_mode:MAX_BACKUPS, Sets the maximum number of backups to keep
-	"max_backups": 5,
+	"max_backups": 1,
 	// Applies to retention_mode:TIERED, The latest x number of backups will be retained
-	"keep_latest": 5,
+	"keep_latest": 1,
 	// Applies to retention_mode:TIERED, Sets number of hourly backups to keep
-	"keep_hourly": 1,
+	"keep_hourly": 3,
 	// Applies to retention_mode:TIERED, Sets number of daily backups to keep
 	"keep_daily": 1,
 	// Applies to retention_mode:TIERED, Sets number of weekly backups to keep
@@ -54,7 +54,7 @@
 	// Minimum free disk space in MB. If a backup's creation would leave less than this amount of disk space remaining, the backup will be aborted.
 	"minimum_free_space": 0,
 	// If the previous backup failed due to lack of space, the oldest backup will be deleted to free space.
-	"free_space_if_needed": false,
+	"free_space_if_needed": true,
 	/* Specify files or folders to be excluded.
 	   Can specify a file name, path relative to server directory or wildcard file path
 	   Examples:                       (All file paths are relative to server root)
